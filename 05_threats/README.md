@@ -65,6 +65,8 @@ Už teď nejde rozpoznat vygenerovaný text od textu, který napsal člověk.
 Lidstvo prožilo cca 100 000 let s verbální komunikací (jazykem), s neverbální ještě řádově víc. Zhruba před 10 000 lety vzniklo zemědělství, cca před 5000 lety písmo. Nejstarší knihy jsou z 8. století, od 15. století máme knihtisk.
 Jsme velmi špatně adaptovaní na nová média (máme tendenci věřit tomu, co vidíme a slyšíme).
 
+--- 
+
 Na druhou stranu, AI může pomoci i v odhalování fake news, případně v diskuzi s lidmi, kteří fake news propadli. 
 
 > If you're afraid and believe that the world is dangerous and random and chaotic, it's almost a comforting idea that that there's order in the world, even if that order is something like an evil secret government.
@@ -81,6 +83,8 @@ Výzkumníci např. zjistili, že některé nástroje pro generování fotografi
 - 30 % marketingových materiálů je vygenerovaných
 - Stable Diffusion je open model, využívá jej například Canva
 
+---
+
 > Perpetuating stereotypes and misrepresentations through imagery can pose significant educational and professional barriers for Black and Brown women and girls, said Heather Hiles, chair of Black Girls Code.
 > “People learn from seeing or not seeing themselves that maybe they don’t belong,” Hiles said. “These things are reinforced through images.”
 >
@@ -91,11 +95,11 @@ Stable Diffusion’s text-to-image model amplifies stereotypes about race and ge
 
 ---
 
-![gender bias](gender_bias.png)
+![racial bias](racial_bias.png)
 
 ---
 
-![racial bias](racial_bias.png)
+![gender bias](gender_bias.png)
 
 ---
 

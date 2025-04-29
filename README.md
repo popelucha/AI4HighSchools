@@ -2,7 +2,19 @@
 
 Workshop o umělé inteligenci
 
+---
+
 ## Osnova
+
+1. Jak a proč AI funguje? 
+2. Jak se AI trénuje? 
+3. Jak AI používat?
+4. Jaký byznys je AI?
+5. Jaké jsou hrozby AI?
+6. Jak se o AI dozvědět víc?
+
+---
+## Osnova podrobnějí
 
 1. Jak a proč AI funguje? 
   * nedá se nic dělat, začneme statistikou
@@ -34,6 +46,7 @@ Workshop o umělé inteligenci
 6. Jak se o AI dozvědět víc?
   * a hlavně, jak stále držet krok
 
+---
 # Praktické ukázky
 
 - Word Embeddings Colab (TODO)
@@ -43,6 +56,7 @@ Workshop o umělé inteligenci
   - [prvních 100 stran AI Act](AI_Act_100_pages.pdf)
 - [Vizualizace investic pomocí ChatGPT](https://colab.research.google.com/drive/1rSfUUkg8vms3etNvNgRN_bZ6bJJov95J?usp=sharing)
 
+---
 # Zdroje
 
 ## Základní
@@ -68,10 +82,13 @@ Workshop o umělé inteligenci
 - China is accelerating the development of AI-related technologies and capacities. Woodburn Accountants & Advisors. https://www.woodburnglobal.com/post/china-is-accelerating-the-development-of-ai-related-technologies-and-capacities
 - Ashwin Acharya, Zachary Arnold: Chinese Public AI R&D Spending: Provisional Findings. Center for Security and Emerging Technology. December 2019.  https://cset.georgetown.edu/wp-content/uploads/Chinese-Public-AI-RD-Spending-Provisional-Findings-1.pdf
 
+---
+
 # K dalšímu čtení nebo prohlížení
 
 - Eliza Strickland: AI Experts Speak: Memorable Quotes from Spectrum's AI Coverage. 30 Sep 2021. https://spectrum.ieee.org/artificial-intelligence-quotes/daniela-rus
 
+---
 
 # Pokud chcete udržet krok
 
