@@ -26,3 +26,8 @@ Není jedna AI, která vládne všem (zatím).
 - Lumen5 vygeneruje doprovodné video
   - https://lumen5.com/user/10196519/upoutavka-k-clanku-b5v7s/
 
+## Detekce generovaného obsahu
+
+- SightEngine: https://dashboard.sightengine.com/ai-image-detection
+
+ 
