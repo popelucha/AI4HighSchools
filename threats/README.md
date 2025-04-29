@@ -39,6 +39,8 @@ Komu budeme platit za díla, která vygenerovala AI?
 >
 > --- Andrea Cristina McGlinchey and Peter Barclay: Using Machine Learning to Distinguish Human-Written from Machine-Generated Creative Fiction, ICAART 2025.
 
+---
+
 Bude méně povolání pro nekvalifikované lidi? Jaká povolání zbudou?
 
 > Investiční banka Goldman Sachs odhaduje, že tato rychle se rozvíjející technologie by mohla ve Spojených státech a v Evropě ztratit nebo snížit 300 milionů pracovních míst
@@ -46,6 +48,7 @@ Bude méně povolání pro nekvalifikované lidi? Jaká povolání zbudou?
 >
 > --- https://www.forbes.com/sites/jackkelly/2024/10/28/how-ai-could-be-detrimental-to-low-wage-workers/
 
+---
 Automatizace způsobila v USA mezi lety 1980 a 2016 většinu změn ve struktuře mezd (50-70 %).
 
 > The real earnings of men without a high-school degree are now 15% lower than they were in 1980.
@@ -100,7 +103,8 @@ Stable Diffusion’s text-to-image model amplifies stereotypes about race and ge
 
 ---
 
-![obličej kriminálníka](criminals.png)
+<img src="criminals.png" alt="obličej kriminálníka" width="50%"/>
+obličej kriminálníka(criminals.png)
 
 ---
 
