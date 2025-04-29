@@ -1,9 +1,9 @@
 # Hrozby AI
 
 Můj prompt pro NotebookLM:
-```
-Chci vědět, jaká jsou rizika AI. Zajímají mě všechny obory: sociální rizika, bezpečnost, zbraně, deepfakes, lidé, kteří přijdou o práci nebo za jejich práci nebude ochoten nikdo zaplatit víc než za vygenerovanou napodobeninu. Zajímají mě dopady na životní prostředí - jak při trénování modelů, tak při jejich provozu. Kolik se musí postavit elektráren, například. Zajímá mě, zda velké jazykové modely mohou chránit kulturní a jazykovou diverzitu lidstva nebo zda ji poškozují. Vede používání AI k demokratizaci vzdělávání, nebo naopak bude rozevírat nůžky mezi vzdělanými a bohatými a chudými nevzdělanými lidmi? Je AI riziko pro ekonomiku a trhy? Může být AI zneužita pro sledování a řízení obyvatel bez jejich vědomí?
-```
+
+	Chci vědět, jaká jsou rizika AI. Zajímají mě všechny obory: sociální rizika, bezpečnost, zbraně, deepfakes, lidé, kteří přijdou o práci nebo za jejich práci nebude ochoten nikdo zaplatit víc než za vygenerovanou napodobeninu. Zajímají mě dopady na životní prostředí - jak při trénování modelů, tak při jejich provozu. Kolik se musí postavit elektráren, například. Zajímá mě, zda velké jazykové modely mohou chránit kulturní a jazykovou diverzitu lidstva nebo zda ji poškozují. Vede používání AI k demokratizaci vzdělávání, nebo naopak bude rozevírat nůžky mezi vzdělanými a bohatými a chudými nevzdělanými lidmi? Je AI riziko pro ekonomiku a trhy? Může být AI zneužita pro sledování a řízení obyvatel bez jejich vědomí?
+
 
 ---
 
@@ -87,30 +87,30 @@ Výzkumníci např. zjistili, že některé nástroje pro generování fotografi
 Stable Diffusion’s text-to-image model amplifies stereotypes about race and gender — here’s why that matters
 
 ---
-### Zkreslení Stable Diffusion
 
-[gender bias](gender_bias.png)
-
----
-### Zkreslení Stable Diffusion
-
-[racial bias](racial_bias.png)
+![gender bias](gender_bias.png)
 
 ---
-### Zkreslení Stable Diffusion
 
-[průměrný obličej](average-face.png)
-
----
-### Zkreslení Stable Diffusion
-
-[obličej kriminálníka](criminals.png)
+![racial bias](racial_bias.png)
 
 ---
+
+![průměrný obličej](average-face.png)
+
+---
+
+![obličej kriminálníka](criminals.png)
+
+---
+
+### Zkreslení v jazyce
 
 Zánik jazyků: z cca 7000 jazyků světa se jich k trénování chatbotů použilo asi 100.
 
 Rozpoznání hlasu: modely nejsou schopny rozpoznat dialekty, akcent a jiné varianty jazyka.
+
+Budeme mluvit a psát všichni stejně?
 
 ---
 
