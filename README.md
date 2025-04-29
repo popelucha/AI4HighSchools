@@ -49,8 +49,9 @@ Workshop o umělé inteligenci
 
 ## Základní
 
-- The 2025 AI Index Report: https://hai.stanford.edu/ai-index/2025-ai-index-report
-- AI Act https://asociace.ai/eu-ai-act/
+- The 2025 AI Index Report https://hai.stanford.edu/ai-index/2025-ai-index-report
+- Akt o umělé inteligenci https://digital-strategy.ec.europa.eu/cs/policies/regulatory-framework-ai
+- AI Act - vysvětlení https://asociace.ai/eu-ai-act/
 
 ## Dílčí témata
 
@@ -72,10 +73,13 @@ Workshop o umělé inteligenci
 
 # Pokud chcete udržet krok
 
-- Pokrok v AI: https://stanislavfort.substack.com/
+- Pokrok v AI https://stanislavfort.substack.com/
   - v češtině
   - od špičkových vědců (Stanislav a Kristina Fort)
-- The AI Report: https://ai-report.kdnuggets.com/
+- The AI Report https://ai-report.kdnuggets.com/
   - týdenní report
   - k nejdůležitějším novinkám obsahuje shrnutí 🤔 Why It Matters
-- 
+- Je libo něco techničtějšího?
+  - Sebastian Raschka https://magazine.sebastianraschka.com/
+  - The Gradient https://thegradientpub.substack.com/ 
+  - Andrej Karpathy https://karpathy.ai/
