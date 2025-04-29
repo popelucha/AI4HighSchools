@@ -6,7 +6,7 @@
 
 Slovo "krindy" se v korpusu SYN v13 vyskytuje 35 krát. Celkem se v korpusu vyskytuje 6 400 899 055 slov.
 
-[krindy pindy](krindypindy.png)
+![krindy pindy](krindypindy.png)
 
 ---
 
