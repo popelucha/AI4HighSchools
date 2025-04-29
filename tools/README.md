@@ -36,3 +36,13 @@ Není jedna AI, která vládne všem (zatím).
   - https://lumen5.com/user/10196519/upoutavka-k-clanku-b5v7s/
 
 ---
+=======
+## Detekce generovaného obsahu
+
+- SightEngine: https://dashboard.sightengine.com/ai-image-detection
+
+- Winston AI: https://gowinston.ai/
+
+- Content at Scale: https://contentatscale.ai/ai-content-detector/
+
+- ZeroGPT: https://www.zerogpt.com/
