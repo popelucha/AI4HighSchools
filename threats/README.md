@@ -5,7 +5,31 @@ Můj prompt pro NotebookLM:
 Chci vědět, jaká jsou rizika AI. Zajímají mě všechny obory: sociální rizika, bezpečnost, zbraně, deepfakes, lidé, kteří přijdou o práci nebo za jejich práci nebude ochoten nikdo zaplatit víc než za vygenerovanou napodobeninu. Zajímají mě dopady na životní prostředí - jak při trénování modelů, tak při jejich provozu. Kolik se musí postavit elektráren, například. Zajímá mě, zda velké jazykové modely mohou chránit kulturní a jazykovou diverzitu lidstva nebo zda ji poškozují. Vede používání AI k demokratizaci vzdělávání, nebo naopak bude rozevírat nůžky mezi vzdělanými a bohatými a chudými nevzdělanými lidmi? Je AI riziko pro ekonomiku a trhy? Může být AI zneužita pro sledování a řízení obyvatel bez jejich vědomí?
 ```
 
+---
+
 ## Další poznámky k tématu
+
+- o přínosech a hrozbách EU naštěstí ví i politici
+- v EU máme AI Act
+  - kritizovaný za to, že "Evropa zaspala"
+  - jediná oblast na světě, kde někoho zajímají práva lidí
+
+---
+
+##  Ohrožuje nás, že "Evropa zaspala"?
+
+- Ano
+
+  - Čína začala masivně investovat do AI v roce 2017
+  - investice USA jsou mnohem vyšší (je to ale srovnatelné?)
+
+- Ne
+
+  - v EU je dost lidí, kteří jsou experty v AI (v akademické sféře)
+  - ČR má přístup k nejvýkonějšímu počítač v EU: Lumi
+  - mezi světově používanými modely je francouzský Mistral
+
+---
 
 ### Lidé přijdou o práci (nebo jim za ni nebudou ochotni platit)
 
@@ -29,6 +53,8 @@ Automatizace způsobila v USA mezi lety 1980 a 2016 většinu změn ve struktuř
 > --- Daron Acemoglu & Pascual Restrepo, 2022. "Tasks, Automation, and the Rise in U.S. Wage Inequality," Econometrica, Econometric Society, vol. 90(5), pages 1973-2016, September.
 https://www.nber.org/papers/w28920
 
+---
+
 ### Deepfakes 
 
 Už teď nejde rozpoznat vygenerovaný text od textu, který napsal člověk.
@@ -42,6 +68,8 @@ Na druhou stranu, AI může pomoci i v odhalování fake news, případně v dis
 >
 > --- Thomas H. Costello et al.: Durably reducing conspiracy beliefs through dialogues with AI.Science385,eadq1814(2024).DOI:10.1126/science.adq1814
 > --- https://www.debunkbot.com/
+
+---
 
 ### Zkreslení (bias)
 
@@ -58,11 +86,35 @@ Výzkumníci např. zjistili, že některé nástroje pro generování fotografi
 
 Stable Diffusion’s text-to-image model amplifies stereotypes about race and gender — here’s why that matters
 
+---
+### Zkreslení Stable Diffusion
+
+[gender bias](gender_bias.png)
+
+---
+### Zkreslení Stable Diffusion
+
+[racial bias](racial_bias.png)
+
+---
+### Zkreslení Stable Diffusion
+
+[průměrný obličej](average-face.png)
+
+---
+### Zkreslení Stable Diffusion
+
+[obličej kriminálníka](criminals.png)
+
+---
+
 Zánik jazyků: z cca 7000 jazyků světa se jich k trénování chatbotů použilo asi 100.
 
 Rozpoznání hlasu: modely nejsou schopny rozpoznat dialekty, akcent a jiné varianty jazyka.
 
-### Sledování
+---
+
+### Sledování a porušení soukromí
 
 Běžně používáme biometrické údaje: nejčastěji otisk prstu.
 
@@ -74,6 +126,7 @@ Krádeže identit: napodobení hlasu, deepfake videa, porušení online privacy
 
 Na druhou stranu tytéž technologie pomáhají (zachování hlasu pro pacienty po odstranění části nebo celé hlasivky).
 
+---
 
 ### Oslabení etických pravidel
 
@@ -90,6 +143,8 @@ AI ve zdravotnictví
 - může mít málo lidskosti (empatie, porozumění, emoce, kreativita)
 - snížená komunikace a sociální interakce
 
+---
+
 ### Autonomní zbraně
 
 - roboti, drony, ...
@@ -104,6 +159,8 @@ Nová studená válka?
 >
 > --- Nicole Robinson, Grace Phillips: The Emerging “Cold Tech War” Between the U.S and China. Aug 2023. The Heritage Foundation.
 > --- https://www.heritage.org/big-tech/commentary/the-emerging-cold-tech-war-between-the-us-and-china
+
+---
 
 ## Je lidstvo schopné se dohodnout?
 
