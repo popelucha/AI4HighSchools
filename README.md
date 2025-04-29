@@ -34,15 +34,11 @@ Workshop o umělé inteligenci
 6. Jak se o AI dozvědět víc?
   * a hlavně, jak stále držet krok
 
-# Nástroje
-
-## Informace
-
-- [Akademický tahák Hanky Žižkové](https://muni-arts-teachers.padlet.org/hzizkova1/ai-tools-for-academic-writing-spouhipvo1qtcwfh)
-
-## Kód
+# Praktické ukázky
 
 - Word Embeddings Colab (TODO)
+- [Český národní korpus](https://www.korpus.cz/kontext/view?q=~ecO4aCi6EeGM)
+- [Akademický tahák Hanky Žižkové](https://muni-arts-teachers.padlet.org/hzizkova1/ai-tools-for-academic-writing-spouhipvo1qtcwfh)
 - [Vizualizace investic pomocí ChatGPT](https://colab.research.google.com/drive/1rSfUUkg8vms3etNvNgRN_bZ6bJJov95J?usp=sharing)
 
 # Zdroje
@@ -54,6 +50,10 @@ Workshop o umělé inteligenci
 - AI Act - vysvětlení https://asociace.ai/eu-ai-act/
 
 ## Dílčí témata
+
+### Korpusová lingvistika
+
+- Wikipedia contributors. (2025, April 18). Distributional semantics. In Wikipedia, The Free Encyclopedia. Retrieved 21:00, April 29, 2025, from https://en.wikipedia.org/w/index.php?title=Distributional_semantics&oldid=1286266682
 
 ### Evropa
 
