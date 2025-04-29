@@ -2,7 +2,7 @@
 
 Můj prompt pro NotebookLM:
 
-	Chci vědět, jaká jsou rizika AI. Zajímají mě všechny obory: sociální rizika, bezpečnost, zbraně, deepfakes, lidé, kteří přijdou o práci nebo za jejich práci nebude ochoten nikdo zaplatit víc než za vygenerovanou napodobeninu. Zajímají mě dopady na životní prostředí - jak při trénování modelů, tak při jejich provozu. Kolik se musí postavit elektráren, například. Zajímá mě, zda velké jazykové modely mohou chránit kulturní a jazykovou diverzitu lidstva nebo zda ji poškozují. Vede používání AI k demokratizaci vzdělávání, nebo naopak bude rozevírat nůžky mezi vzdělanými a bohatými a chudými nevzdělanými lidmi? Je AI riziko pro ekonomiku a trhy? Může být AI zneužita pro sledování a řízení obyvatel bez jejich vědomí?
+> Chci vědět, jaká jsou rizika AI. Zajímají mě všechny obory: sociální rizika, bezpečnost, zbraně, deepfakes, lidé, kteří přijdou o práci nebo za jejich práci nebude ochoten nikdo zaplatit víc než za vygenerovanou napodobeninu. Zajímají mě dopady na životní prostředí - jak při trénování modelů, tak při jejich provozu. Kolik se musí postavit elektráren, například. Zajímá mě, zda velké jazykové modely mohou chránit kulturní a jazykovou diverzitu lidstva nebo zda ji poškozují. Vede používání AI k demokratizaci vzdělávání, nebo naopak bude rozevírat nůžky mezi vzdělanými a bohatými a chudými nevzdělanými lidmi? Je AI riziko pro ekonomiku a trhy? Může být AI zneužita pro sledování a řízení obyvatel bez jejich vědomí?
 
 
 ---
@@ -104,7 +104,6 @@ Stable Diffusion’s text-to-image model amplifies stereotypes about race and ge
 ---
 
 <img src="criminals.png" alt="obličej kriminálníka" width="50%"/>
-obličej kriminálníka(criminals.png)
 
 ---
 
@@ -141,7 +140,9 @@ Podvádět je tak snadné!
 - akademická integrita
 - záplava falešných CV a referencí 
 
-AI ve zdravotnictví
+---
+###
+Etika a AI ve zdravotnictví
 
 - má mnoho výhod (v diagnostice, nano lécích, datové analytice)
 - může mít málo lidskosti (empatie, porozumění, emoce, kreativita)
@@ -156,6 +157,8 @@ AI ve zdravotnictví
 - ničení podmořských kabelů (které přenesou přes 97 % světových dat)
 - sabotáže
 
+
+---
 Nová studená válka?
 
 
