@@ -22,20 +22,24 @@ Workshop o umělé inteligenci
   * attention
   * výpočetní síla
   * praktické ukázky: word embeddings
+---
 2. Jak se AI trénuje? 
   * kde a jak vzít textová data
   * jazykový korpus
   * jak velký je velký jazykový model?
   * praktické ukázky: jazykový korpus
+---
 3. Jak AI používat?
   * nástroje, které používáte
   * nástroje, které můžete používat
   * jak přestat používat AI blbě
   * praktické ukázky: NotebookLLM, případně SemanticScholar, Elicit...
+---
 4. Jaký byznys je AI?
   * sledujeme závod jen mezi Čínou a USA?
   * je AI Act pitomost, která Evropu zabrzdila?
   * praktické ukázky: ChatGPT a python, ChatPDF
+---
 5. Jaké jsou hrozby AI?
   * sociální
   * enviromentální
@@ -43,6 +47,7 @@ Workshop o umělé inteligenci
   * kulturní
   * etické
   * praktické ukázky: odhalíme generovaný obsah?
+---
 6. Jak se o AI dozvědět víc?
   * a hlavně, jak stále držet krok
 
@@ -65,6 +70,8 @@ Workshop o umělé inteligenci
 - Akt o umělé inteligenci https://digital-strategy.ec.europa.eu/cs/policies/regulatory-framework-ai
 - AI Act - vysvětlení https://asociace.ai/eu-ai-act/
 
+---
+
 ## Dílčí témata
 
 ### Korpusová lingvistika
@@ -75,6 +82,8 @@ Workshop o umělé inteligenci
 
 - IT4Innovations: národní superpočítačové centrum https://www.it4i.cz/infrastruktura/superpocitac-lumi
 - Mistral AI https://mistral.ai/about
+
+---
 
 ### Čína
 
