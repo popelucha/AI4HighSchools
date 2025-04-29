@@ -9,19 +9,21 @@ Workshop o umělé inteligenci
   - word embeddings
   - attention
   - výpočetní síla
-1. Jak se AI trénuje? 
+2. Jak se AI trénuje? 
   - kde a jak vzít textová data
   - jazykový korpus
   - výpočetní síla a velikost dat
-1. Jak AI používat?
+3. Jak AI používat?
   - nástroje, které používáte
   - nástroje, které můžete používat
   - jak přestat používat AI blbě
-1. Jaký byznys je AI?
+4. Jaký byznys je AI?
   - sledujeme závod jen mezi Čínou a USA?
   - je AI Act pitomost, která Evropu zabrzdila?
-1. Jaké jsou hrozby AI?
+5. Jaké jsou hrozby AI?
   - sociální
   - enviromentální
   - vojenské
   - kulturní
+6. Jak se o AI dozvědět víc?
+  - a hlavně, jak stále držet krok
