@@ -104,7 +104,7 @@ Statistika nad korpusem:
 
 ### Word embeddings
 
-![word embeddings](word_embeddings.png)
+![word embeddings](word_embedding.png)
 
 By Fschwarzentruber - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=162969550
 
@@ -147,7 +147,7 @@ Neuron je výpočetní jednotka, která popisuje přímku
 
 $$ y = ax + b $$
 
-![lineární regrese](Linear_regression.svg)
+![lineární regrese](Linear_regression.svg.png)
 
 By Sewaqu - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=11967659
 
@@ -155,3 +155,7 @@ By Sewaqu - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?c
 ### Co je parametr?
 
 $$ y = ax + b $$
+
+$$ y = <span color=red>a</span>x + <span color=blue>b</span> $$
+
+$$ y = <span style="color: red">a</span>x + b $$
