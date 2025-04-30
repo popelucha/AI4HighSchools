@@ -145,12 +145,27 @@ Podvádět je tak snadné!
 - záplava falešných CV a referencí 
 
 ---
-###
-Etika a AI ve zdravotnictví
+### Etika a AI ve zdravotnictví
 
 - má mnoho výhod (v diagnostice, nano lécích, datové analytice)
 - může mít málo lidskosti (empatie, porozumění, emoce, kreativita)
 - snížená komunikace a sociální interakce
+
+---
+
+### Etika a politika
+
+- 60 incidentů v 15 zemích ohledně generovaného obsahu použitého ve volbách https://restofworld.org/2024/elections-ai-tracker/
+- čínská spamouflage ovlivňuje volby v USA
+- ruské hybridní operace na území EU
+![spamouflage](spamouflage.png)
+
+---
+
+### Dezinformace
+
+- mohou být životu nebezpečné
+- jsou aspoň neproduktivní
 
 ---
 
@@ -163,7 +178,7 @@ Etika a AI ve zdravotnictví
 
 
 ---
-Nová studená válka?
+### Nová studená válka?
 
 
 >Submarine cable competition between the United States and China has serious implications for today’s information war. If China and the U.S. continue to bid against each other, countries will be forced to choose between their cable networks, forming a “digital Iron Curtain” that splits the internet ecosystem in two.
@@ -173,8 +188,45 @@ Nová studená válka?
 
 ---
 
+### AI a životní prostředí
+
+Trénování modelů zatěžuje životní prostředí:
+https://datawrapper.dwcdn.net/LT0cN/1/
+
+Datacentra potřebují mnoho energie a vody:
+- Microsoft zvažuje koupi jaderné elektrárny
+- Samotný trénink jazykového modelu GPT-3 spotřeboval 700 000 litrů vody
+
+---
+### Není to tak zlé:
+https://andymasley.substack.com/p/individual-ai-use-is-not-bad-for
+
+Má nám individuálním uživatelům dělat starosti energetická náročnost trénování modelů?
+
+Kdo to vůbec zaplatil?
+
+Na druhou stranu AI může také energii šetřit:
+- optimalizace energetické sítě
+- automatické sledování stavu plodin v zemědělství (přesnější dávkování hnojiv nebo cílená likvidace škůdců)
+- nemusíme cestovat kvůli schůzce (není to díky AI, ale celkově díky IT)
+
+---
+
+### Pocit ohrožení a data
+
+![Rizika AI a jejich zmírnění](ai_risks.png)
+
+
+---
+
+### Pracovní síla a AI
+
+![Ohrožení pracovních pozic AI](workforce_risks.png)
+
+
+---
+
 ## Je lidstvo schopné se dohodnout?
 
 - už několikrát se to podařilo (mezinárodní dohody o rádiovém vysílání, podmořských kabelech, lovu velryb, ...)
 - dokonce se to podařilo i dost rychle (omezení freonů a ozonová díra)
-
