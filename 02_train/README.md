@@ -50,3 +50,29 @@ $$ y = {\color{red}w}x + {\color{blue}b} $$
 ## Iterace X - nejlepší *w* a *b*
 ![data](reg2.png)
 
+---
+## Trénování transformeru
+
+- bohužel velká síť musí být celá v paměti počítače
+- váhy a zkreslení se vzájemně ovlivňují
+- lineární model má dva parametry, GPT-3 má 175 miliard parametrů
+- trénování trvá dlouho
+
+
+velká paměť + velký výkon = drahé počítače
+
+---
+###  Výkon počítačů - FLOPS
+
+- floating point operations per second
+- běžný herní počítač má 100 gigaFLOPS (10e11) - 10 teraFLOPS (10e13)
+- výpočet se měří v petaFLOPS (10e15) za den počítání
+
+![výkon potřebný pro trénování](few_shot_learners.png)
+
+---
+### Kdo má tak výkonné počítače?
+
+- výkon superpočítače LUMI: 531 PFLOPS/s
+
+![lumi](lumi.jpg)
