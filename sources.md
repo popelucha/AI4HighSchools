@@ -12,12 +12,23 @@
 
 - Wikipedia contributors. (2025, April 18). Distributional semantics. In Wikipedia, The Free Encyclopedia. Retrieved 21:00, April 29, 2025, from https://en.wikipedia.org/w/index.php?title=Distributional_semantics&oldid=1286266682
 
-### Evropa
+### Historie AI
+
+- Wikipedia contributors. (2025, April 28). Georgetown–IBM experiment. In Wikipedia, The Free Encyclopedia. Retrieved 11:25, April 30, 2025, from https://en.wikipedia.org/w/index.php?title=Georgetown%E2%80%93IBM_experiment&oldid=1287764397
+- What is the history of artificial intelligence (AI)? Salesforce. https://en.wikipedia.org/wiki/Georgetown%E2%80%93IBM_experiment
+- Yulia Frumer: The Short, Strange Life of the First Friendly Robot. IEEE Spectrum. 21 May 2020. https://spectrum.ieee.org/the-short-strange-life-of-the-first-friendly-robot
+- Taylor Kubota: Stanford’s robotics legacy. StanfordReport. January 16th, 2019. https://news.stanford.edu/stories/2019/01/stanfords-robotics-legacy
+- Wikipedia contributors. (2025, April 30). Recommender system. In Wikipedia, The Free Encyclopedia. Retrieved 11:54, April 30, 2025, from https://en.wikipedia.org/w/index.php?title=Recommender_system&oldid=1288033449
+- Steven Levy, “How Elon Musk and Y Combinator Plan to Stop Computers From Taking Over,” Medium, December 11, 2015. https://medium.com/backchannel/how-elon-musk-and-y-combinator-plan-to-stop-computers-from-taking-over-17e0e27dd02a
+- Brian Merchant, “AI Generated Business: The Rise of AGI and the Rush to Find a Working Revenue Model”, AI Now Institute, December 2024.
+- Toosi, Amirhosein et al.: A Brief History of AI: How to Prevent Another Winter (A Critical Review). PET Clinics, Volume 16, Issue 4, 449 - 469 https://arxiv.org/abs/2109.01517
+
+### AI a Evropa
 
 - IT4Innovations: národní superpočítačové centrum https://www.it4i.cz/infrastruktura/superpocitac-lumi
 - Mistral AI https://mistral.ai/about
 
-### Čína
+### AI a Čína
 
 - The rise of artificial intelligence in China. 21/01/2025. https://www.casaasia.eu/actualidad/el-auge-de-la-inteligencia-artificial-en-china/
 - China is accelerating the development of AI-related technologies and capacities. Woodburn Accountants & Advisors. https://www.woodburnglobal.com/post/china-is-accelerating-the-development-of-ai-related-technologies-and-capacities
