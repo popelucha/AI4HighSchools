@@ -8,9 +8,19 @@
 
 ## Dílčí témata
 
+### Word Embeddings
+
+Wikipedia contributors. (2025, March 30). Word embedding. In Wikipedia, The Free Encyclopedia. Retrieved 13:52, April 30, 2025, from https://en.wikipedia.org/w/index.php?title=Word_embedding&oldid=1283071646
+
 ### Korpusová lingvistika
 
 - Wikipedia contributors. (2025, April 18). Distributional semantics. In Wikipedia, The Free Encyclopedia. Retrieved 21:00, April 29, 2025, from https://en.wikipedia.org/w/index.php?title=Distributional_semantics&oldid=1286266682
+
+## Trénování
+
+- Wikipedia contributors. (2025, April 30). Linear regression. In Wikipedia, The Free Encyclopedia. Retrieved 14:43, April 30, 2025, from https://en.wikipedia.org/w/index.php?title=Linear_regression&oldid=1288092946
+- Tom B. Brown et al.: Language Models are Few-Shot Learners. 2020. arXiv. https://arxiv.org/abs/2005.14165
+- Hadi, M. U., Al Tashi, Q., Qureshi, R., Shah, A., Muneer, A., Irfan, M., … & Mirjalili, S. (2023). Large language models: a comprehensive survey of its applications, challenges, limitations, and future prospects.. https://doi.org/10.36227/techrxiv.23589741
 
 ### Historie AI
 
@@ -23,6 +33,10 @@
 - Brian Merchant, “AI Generated Business: The Rise of AGI and the Rush to Find a Working Revenue Model”, AI Now Institute, December 2024.
 - Toosi, Amirhosein et al.: A Brief History of AI: How to Prevent Another Winter (A Critical Review). PET Clinics, Volume 16, Issue 4, 449 - 469 https://arxiv.org/abs/2109.01517
 
+
+### Dezinformace
+
+- Derek B. Johnson: Disinfo group Spamouflage more aggressively targeting U.S. elections, candidates. September 3, 2024. Cyberscoop. https://cyberscoop.com/spamouflage-targeting-us-election-candidates/
 ### AI a Evropa
 
 - IT4Innovations: národní superpočítačové centrum https://www.it4i.cz/infrastruktura/superpocitac-lumi

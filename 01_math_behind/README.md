@@ -1,3 +1,8 @@
+# Kam AI zasahuje
+
+![AI](ai_fields.png)
+
+---
 # Jak a proč AI funguje?
 
 jazykový korpus - datová sada s texty
