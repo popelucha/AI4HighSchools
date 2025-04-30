@@ -154,8 +154,10 @@ By Sewaqu - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?c
 ---
 ### Co je parametr?
 
-$$ y = ax + b $$
+$$ y = {\color{red}a}x + {\color{blue}b} $$
 
-$$ y = <span color=red>a</span>x + <span color=blue>b</span> $$
+a, b se někdy nazývají váha (weight) a zkreslení (bias)
 
-$$ y = <span style="color: red">a</span>x + b $$
+$$ y = {\color{red}w}x + {\color{blue}b} $$
+
+
