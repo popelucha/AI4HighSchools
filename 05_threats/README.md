@@ -162,10 +162,9 @@ Podvádět je tak snadné!
 
 ---
 
-### Dezinformace
+### Dezinformace a misinformace
 
-- mohou být životu nebezpečné
-- jsou aspoň neproduktivní
+- o těch jindy
 
 ---
 
@@ -199,10 +198,10 @@ Datacentra potřebují mnoho energie a vody:
 
 ---
 ### Není to tak zlé:
+![spotřeba](ai_enviro.jpg)
 https://andymasley.substack.com/p/individual-ai-use-is-not-bad-for
 
 Má nám individuálním uživatelům dělat starosti energetická náročnost trénování modelů?
-
 Kdo to vůbec zaplatil?
 
 Na druhou stranu AI může také energii šetřit:
@@ -221,7 +220,7 @@ Na druhou stranu AI může také energii šetřit:
 
 ### Pracovní síla a AI
 
-![Ohrožení pracovních pozic AI](workforce_risks.png)
+![Ohrožení pracovních pozic AI](workforce_threat.png)
 
 
 ---
