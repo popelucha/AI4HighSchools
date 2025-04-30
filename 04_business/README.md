@@ -9,7 +9,7 @@
 >
 > --- Yulia Frumer: The Short, Strange Life of the First Friendly Robot
 ---
-![Gakutensaku](gakutensaku.webp)
+![Gakutensaku](gakutensaku.jpg)
 
 ---
 
@@ -20,7 +20,7 @@
 - první průmyslový robot Unimate z roku 1961
 - chatbot Eliza je z roku 1966
 - 1979 autonomní vozítko projelo samo prostředím plným překážek
-![Stanford Cart](stanford_cart.jpeg)
+![Stanford Cart](stanford_cart.jpg)
 https://news.stanford.edu/stories/2019/01/stanfords-robotics-legacy
 
 ---
@@ -57,4 +57,4 @@ https://news.stanford.edu/stories/2019/01/stanfords-robotics-legacy
 - 2017 robot Sophia (od Hanson Robotics) získává občanství v Saúdské Arábii
 - Zájem (a financování) AI
 
-![AI Winters](ai3.png)
+![AI Winters](ai_winter.png)
