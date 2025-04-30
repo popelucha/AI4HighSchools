@@ -4,12 +4,12 @@
 
 - myšlenka autonomního stroje, který se bude rozhodovat podle informací, které dostane z prostředí, je velmi stará (antika, Leonardo da Vinci, golem, ...)
 - slovo "robot" 1921 (ze slova "robota")
-- první robot 1928 Gakutensaku (Makoto Nishimura)
+- první robot 1928 Gakutensoku (Makoto Nishimura)
 > Charakter umělých lidí je určen záměry jejich tvůrců. A záměrem humanoidů táhnoucích kočáry na parní pohon bylo vytvořit dělníky zotročené svými lidskými pány. *To* by podle Nishimurova názoru nevyhnutelně vedlo k vytvoření vykořisťované podtřídy ve stylu *RUR*, která by se musela vzbouřit.
 >
 > --- Yulia Frumer: The Short, Strange Life of the First Friendly Robot
 ---
-![Gakutensaku](gakutensaku.jpg)
+![Gakutensoku](gakutensoku.jpg)
 
 ---
 
@@ -58,3 +58,40 @@ https://news.stanford.edu/stories/2019/01/stanfords-robotics-legacy
 - Zájem (a financování) AI
 
 ![AI Winters](ai_winter.png)
+
+---
+
+### Financování AI: USA vs. Čína?
+
+[investice v roce 2024](investment_per_country.png)
+
+---
+
+### Financování AI: USA vs. Čína?
+
+[dosavadní investice celkem](investment_per_country_sum.png)
+
+---
+
+### Financování AI: Co Evropa?
+
+[investice USA, Evropy a Číny](investment_us_china_eu.png)
+
+---
+
+### AI Firmy založené v roce 2024
+
+[firmy založené v roce 2024](ai_companies.png)
+
+---
+
+### AI Firmy celkem
+
+[AI firmy](ai_companies_sum.png)
+
+---
+
+### AI Firmy: umí Evropa inovace za méně peněz než USA?
+
+[AI firmy celkem](ai_companies_us_china_eu.png)
+
