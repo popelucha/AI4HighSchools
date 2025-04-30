@@ -20,13 +20,10 @@ Není jedna AI, která vládne všem (zatím).
 ---
 ## Organizace materiálů
 
-- Elicit - rešerše (TODO: příklady)
-- NotebookLM:
-  - https://notebooklm.google.com/notebook/09bcbba0-a9dc-45d3-9d55-7d80faff2e95
-  - https://notebooklm.google.com/notebook/e0b970aa-c8d4-47e5-8a66-038e7fcd3134
+- Elicit
+- NotebookLM
 - ExplainPaper
-- Obrovský přehled nástrojů pro akademickou práci
-  - https://muni-arts-teachers.padlet.org/hzizkova1/ai-tools-for-academic-writing-spouhipvo1qtcwfh
+- scite.ai
 
 ---
 ## Generování multimédií
@@ -36,7 +33,6 @@ Není jedna AI, která vládne všem (zatím).
   - https://lumen5.com/user/10196519/upoutavka-k-clanku-b5v7s/
 
 ---
-=======
 ## Detekce generovaného obsahu
 
 - SightEngine: https://dashboard.sightengine.com/ai-image-detection
@@ -46,3 +42,14 @@ Není jedna AI, která vládne všem (zatím).
 - Content at Scale: https://contentatscale.ai/ai-content-detector/
 
 - ZeroGPT: https://www.zerogpt.com/
+
+---
+## Psychická podpora
+
+- Elin.ai - český projekt, kde je nízké riziko zneužití citlivých dat
+
+---
+## Přidejte své oblíbené neuronové sítě
+
+https://padlet.com/popelucha/n-stroje-ai-ozxandxd6f8vy94m
+![QR](qr_code.png)
