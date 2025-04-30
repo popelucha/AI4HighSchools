@@ -66,13 +66,25 @@ velká paměť + velký výkon = drahé počítače
 
 - floating point operations per second
 - běžný herní počítač má 100 gigaFLOPS (10e11) - 10 teraFLOPS (10e13)
+- výkon superpočítače LUMI: 531 PFLOPS/s
+![lumi](lumi.jpg)
+
+---
+### Jak dlouho trénování trvá?
+
 - výpočet se měří v petaFLOPS (10e15) za den počítání
 
 ![výkon potřebný pro trénování](few_shot_learners.png)
 
 ---
-### Kdo má tak výkonné počítače?
+### Co to znamená?
 
-- výkon superpočítače LUMI: 531 PFLOPS/s
+- stovky tisíc až miliony kWh na trénování jednoho modelu
+- uhlíková stopa GPT-3 je 502 tun $$CO_2$$
+- spotřeba vody na trénink GPT-3 je 700 000 litrů
 
-![lumi](lumi.jpg)
+Pro srovnání
+- průměrná spotřeba domácnosti za rok
+  - 3500 kWh
+  - 32000 l vody
+
