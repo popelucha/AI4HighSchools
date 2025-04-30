@@ -54,44 +54,45 @@ https://news.stanford.edu/stories/2019/01/stanfords-robotics-legacy
 
 ### AI zasahuje do politiky
 
-- 2017 robot Sophia (od Hanson Robotics) získává občanství v Saúdské Arábii
 - Zájem (a financování) AI
 
 ![AI Winters](ai_winter.png)
 
----
-
-### Financování AI: USA vs. Čína?
-
-[investice v roce 2024](investment_per_country.png)
+- 2017 robot Sophia (od Hanson Robotics) získává občanství v Saúdské Arábii
 
 ---
 
 ### Financování AI: USA vs. Čína?
 
-[dosavadní investice celkem](investment_per_country_sum.png)
+![investice v roce 2024](investment_per_country.png)
+
+---
+
+### Financování AI: USA vs. Čína?
+
+![dosavadní investice celkem](investment_per_country_sum.png)
 
 ---
 
 ### Financování AI: Co Evropa?
 
-[investice USA, Evropy a Číny](investment_us_china_eu.png)
+![investice USA, Evropy a Číny](investment_us_china_eu.png)
 
 ---
 
 ### AI Firmy založené v roce 2024
 
-[firmy založené v roce 2024](ai_companies.png)
+![firmy založené v roce 2024](ai_companies.png)
 
 ---
 
 ### AI Firmy celkem
 
-[AI firmy](ai_companies_sum.png)
+![AI firmy](ai_companies_sum.png)
 
 ---
 
 ### AI Firmy: umí Evropa inovace za méně peněz než USA?
 
-[AI firmy celkem](ai_companies_us_china_eu.png)
+![AI firmy celkem](ai_companies_us_china_eu.png)
 
