@@ -51,13 +51,3 @@ Workshop o umělé inteligenci
 6. Jak se o AI dozvědět víc?
   * a hlavně, jak stále držet krok
 
----
-# Praktické ukázky
-
-- Word Embeddings Colab (TODO)
-- [Český národní korpus](https://www.korpus.cz/kontext/view?q=~ecO4aCi6EeGM)
-- [Akademický tahák Hanky Žižkové](https://muni-arts-teachers.padlet.org/hzizkova1/ai-tools-for-academic-writing-spouhipvo1qtcwfh)
-- [ChatPDF o AI Actu](https://www.chatpdf.com/share/ZkEcC8zQJCkx93JW5QK7Y)
-  - [prvních 100 stran AI Act](AI_Act_100_pages.pdf)
-- [Vizualizace investic pomocí ChatGPT](https://colab.research.google.com/drive/1rSfUUkg8vms3etNvNgRN_bZ6bJJov95J?usp=sharing)
-
