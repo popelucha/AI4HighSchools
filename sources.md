@@ -22,6 +22,12 @@ Wikipedia contributors. (2025, March 30). Word embedding. In Wikipedia, The Free
 - Tom B. Brown et al.: Language Models are Few-Shot Learners. 2020. arXiv. https://arxiv.org/abs/2005.14165
 - Hadi, M. U., Al Tashi, Q., Qureshi, R., Shah, A., Muneer, A., Irfan, M., … & Mirjalili, S. (2023). Large language models: a comprehensive survey of its applications, challenges, limitations, and future prospects.. https://doi.org/10.36227/techrxiv.23589741
 
+## Energie
+
+- Natalie Sherman: Microsoft chooses infamous nuclear site for AI power. 20 September 2024. BBC News. https://www.bbc.com/news/articles/cx25v2d7zexo
+- MEGATRENDS: FUELING THE FUTURE: Investing Across the Global Energy Lands. SPRING/SUMMER 2024. https://insights.pgim.com/pdf/PGIM-Megatrends-Fueling-The-Furture-English-0524.pdf
+- Andy Masley: Using ChatGPT is not bad for the environment. The Weird Turn Pro. Jan 13, 2025. https://andymasley.substack.com/p/individual-ai-use-is-not-bad-for
+
 ### Historie AI
 
 - Wikipedia contributors. (2025, April 28). Georgetown–IBM experiment. In Wikipedia, The Free Encyclopedia. Retrieved 11:25, April 30, 2025, from https://en.wikipedia.org/w/index.php?title=Georgetown%E2%80%93IBM_experiment&oldid=1287764397

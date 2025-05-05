@@ -96,3 +96,26 @@ https://news.stanford.edu/stories/2019/01/stanfords-robotics-legacy
 
 ![AI firmy celkem](ai_companies_us_china_eu.png)
 
+---
+
+### AI a energie
+
+![spotřeba energie celosvětově](energy_consumption.png)
+
+---
+
+### AI a energie
+
+- v současnosti datacentra spotřebovávají 2 % energie (víc než Francie)
+- v roce 2026 se očekává, že to budou 4 % (tolik, co Japonsko)
+- výstavbu datacenter limituje energie (na provoz a chlazení)
+  - datacentra poháněná zero-carbon energií 
+  - datacentrum Amazonu v Pensylváni u jaderné elektrárny
+  - Microsoft investuje do jaderné elektrárny Three Mile Island
+
+---
+
+### AI, energie a Česká republika
+
+![zero-carbon energie celosvětově](energy_by_source.png)
+

@@ -199,9 +199,10 @@ Datacentra potřebují mnoho energie a vody:
 ---
 ### Není to tak zlé:
 ![spotřeba](ai_enviro.jpg)
-https://andymasley.substack.com/p/individual-ai-use-is-not-bad-for
 
-Má nám individuálním uživatelům dělat starosti energetická náročnost trénování modelů?
+---
+### Má nám individuálním uživatelům dělat starosti energetická náročnost trénování modelů?
+
 Kdo to vůbec zaplatil?
 
 Na druhou stranu AI může také energii šetřit:
