@@ -5,11 +5,16 @@
 - myšlenka autonomního stroje, který se bude rozhodovat podle informací, které dostane z prostředí, je velmi stará (antika, Leonardo da Vinci, golem, ...)
 - slovo "robot" 1921 (ze slova "robota")
 - první robot 1928 Gakutensoku (Makoto Nishimura)
+
 > Charakter umělých lidí je určen záměry jejich tvůrců. A záměrem humanoidů táhnoucích kočáry na parní pohon bylo vytvořit dělníky zotročené svými lidskými pány. *To* by podle Nishimurova názoru nevyhnutelně vedlo k vytvoření vykořisťované podtřídy ve stylu *RUR*, která by se musela vzbouřit.
 >
 > --- Yulia Frumer: The Short, Strange Life of the First Friendly Robot
+
 ---
-![Gakutensoku](gakutensoku.jpg)
+
+### Gakutensoku - ten, který se učí z přírody
+
+![](gakutensoku.jpg){height=450px}
 
 ---
 
@@ -20,8 +25,8 @@
 - první průmyslový robot Unimate z roku 1961
 - chatbot Eliza je z roku 1966
 - 1979 autonomní vozítko projelo samo prostředím plným překážek
-![Stanford Cart](stanford_cart.jpg)
-https://news.stanford.edu/stories/2019/01/stanfords-robotics-legacy
+
+![](stanford_cart.jpg)
 
 ---
 
@@ -46,6 +51,7 @@ https://news.stanford.edu/stories/2019/01/stanfords-robotics-legacy
 - 2006 Twitter, Facebook a Netflix začaly používat AI ve svých algoritmech
 - 2011 Siri
 - 2015 OpenAI
+
 > “If you think about the things that are most important to the future of the world, I think good AI is probably one of the highest things on that list. So we are creating OpenAI. The organization is trying to develop a human positive AI. And because it’s a non-profit, it will be freely owned by the world.”
 > 
 > --- Sam Altman
@@ -56,51 +62,51 @@ https://news.stanford.edu/stories/2019/01/stanfords-robotics-legacy
 
 - Zájem (a financování) AI
 
-![AI Winters](ai_winter.png)
+![](ai_winter.png)
 
 - 2017 robot Sophia (od Hanson Robotics) získává občanství v Saúdské Arábii
 
 ---
 
-### Financování AI: USA vs. Čína?
+### Financování AI: USA vs. Čína? (2024)
 
-![investice v roce 2024](investment_per_country.png)
+![](investment_per_country.png)
 
 ---
 
-### Financování AI: USA vs. Čína?
+### Financování AI: USA vs. Čína? (celkem)
 
-![dosavadní investice celkem](investment_per_country_sum.png)
+![](investment_per_country_sum.png)
 
 ---
 
 ### Financování AI: Co Evropa?
 
-![investice USA, Evropy a Číny](investment_us_china_eu.png)
+![](investment_us_china_eu.png)
 
 ---
 
-### AI Firmy založené v roce 2024
+### AI firmy založené v roce 2024
 
-![firmy založené v roce 2024](ai_companies.png)
-
----
-
-### AI Firmy celkem
-
-![AI firmy](ai_companies_sum.png)
+![](ai_companies.png)
 
 ---
 
-### AI Firmy: umí Evropa inovace za méně peněz než USA?
+### AI firmy celkem
 
-![AI firmy celkem](ai_companies_us_china_eu.png)
+![](ai_companies_sum.png)
+
+---
+
+### AI firmy: umí Evropa inovace za méně peněz než USA?
+
+![](ai_companies_us_china_eu.png)
 
 ---
 
 ### AI a energie
 
-![spotřeba energie celosvětově](energy_consumption.png)
+![](energy_consumption.png)
 
 ---
 
@@ -109,6 +115,7 @@ https://news.stanford.edu/stories/2019/01/stanfords-robotics-legacy
 - v současnosti datacentra spotřebovávají 2 % energie (víc než Francie)
 - v roce 2026 se očekává, že to budou 4 % (tolik, co Japonsko)
 - výstavbu datacenter limituje energie (na provoz a chlazení)
+
   - datacentra poháněná zero-carbon energií 
   - datacentrum Amazonu v Pensylváni u jaderné elektrárny
   - Microsoft investuje do jaderné elektrárny Three Mile Island
@@ -117,5 +124,5 @@ https://news.stanford.edu/stories/2019/01/stanfords-robotics-legacy
 
 ### AI, energie a Česká republika
 
-![zero-carbon energie celosvětově](energy_by_source.png)
+![](energy_by_source.png)
 
