@@ -1,3 +1,11 @@
+# Jak rozumíme AI?
+
+![jak rozumí AI lidé 9-17 let](jak_rozumi.png)
+
+výzkum Národní rady 4-H (USA) z roku 2024
+
+---
+
 # Kam AI zasahuje
 
 ![AI](ai_fields.png)

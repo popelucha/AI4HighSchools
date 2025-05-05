@@ -5,7 +5,7 @@ Největší výzvy dneška spojené s AI:
 - zbraně řízené AI
 - ochrana soukromí a duševního vlastnictví
 - sociální témata (změna pracovního trhu, změna vzdělávání, ...)
-- energie, byznys, politika
+- energie
 
 ---
 
@@ -15,9 +15,15 @@ Největší výzvy dneška spojené s AI:
 >
 > --- The AI Report 2025
 
+---
+
+# Pojďme AI rozumět
+
+![jak rozumí AI lidé 9-17 let](jak_rozumi.png)
 
 --- 
 # AI zasahuje do mnoha oblastí
 
 ![najděte tu svou](ai_whole.png)
 ...najděte tu svou
+

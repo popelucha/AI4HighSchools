@@ -31,6 +31,13 @@ a, b se někdy nazývají váha (weight) a zkreslení (bias)
 $$ y = {\color{red}w}x + {\color{blue}b} $$
 
 ---
+### Co je attention (pozornost)?
+
+Ne všechna data jsou stejně důležitá
+
+![attention](attention.png)
+
+---
 ## Trénování
 
 ![data](reg0.png)
