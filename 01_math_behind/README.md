@@ -1,16 +1,22 @@
+---
+title: AI a my
+author: Zuzana Nevěřilová
+date: 7. 5. 2025
+---
 # Jak rozumíme AI?
 
-![jak rozumí AI lidé 9-17 let](jak_rozumi.png)
+![](jak_rozumi.png)
 
 výzkum Národní rady 4-H (USA) z roku 2024
+------------------
 
----
 
 # Kam AI zasahuje
 
-![AI](ai_fields.png)
+![](ai_fields.png)
 
----
+------------------
+
 # Jak a proč AI funguje?
 
 jazykový korpus - datová sada s texty
@@ -21,7 +27,7 @@ Texty musí být:
 - napsané pokud možno lidmi
 - dost dlouhé
 
----
+------------------
 
 ## AI je statistický model
 
@@ -29,16 +35,18 @@ Texty musí být:
 
 Slovo "krindy" se v korpusu SYN v13 vyskytuje 35 krát. Celkem se v korpusu vyskytuje 6 400 899 055 slov.
 
-![krindy pindy](krindypindy.png)
+![](krindypindy.png)
 
----
+------------------
 
 ### Pokročilejší statistika
+
+![](krindypindy.png)
 
 - po slově "krindy" se vždy vyskytuje slovo "pindy"
 - nejjednodušší jazykový model by mohl pokračovat v generování slovem "pindy", kdykoliv by uživatel napsal "krindy"
 
----
+------------------
 
 ### Statistika a pravděpodobnost
 
@@ -50,10 +58,11 @@ Slovo "krindy" se v korpusu SYN v13 vyskytuje 35 krát. Celkem se v korpusu vysk
 
 
 $$
-P("pindy"|"krindy") = 100 \\%
+P(''pindy''|''krindy'') = 100 \%
 $$
 
----
+------------------
+
 
 ### Proč zrovna krindy pindy?
 
@@ -65,7 +74,7 @@ $$
 >
 > --- Firth, J.R. (1957)
 
----
+------------------
 
 ### Pokročilejší statistika u běžných slov
 
@@ -83,25 +92,25 @@ $$
 | dobrý tým       | 8 638     | 1,35       |
 | dobrý dojem     | 7 545     | 1,18       |
 | dobrý den       | 6 602     | 1,03       |
+------------------
 
----
 
 ### Ještě pokročilejší statistika
 
-krindy pindy $$\neq$$ pindy krindy
+"krindy pindy" není "pindy krindy"
 
 Text je sekvence slov (a neslov)
 
 Záleží nejen na nejbližších sousedních slovech, ale i na širším okolí (kontext).
 
-Statistika nad korpusem:
+#### Statistika nad korpusem:
 
 - když je v textu "krindy pindy", budou tam pravděpodobněji *light* nadávky (sakryš, prkotina, ...)
 - slovo "dobrý" se často vyskytuje v nabídkách práce
 - slovo "dobrý" se často vyskytuje se slovem "velmi"
 - v podobných situacích jako "dobrý" se vyskytuje slovo "špatný"
 
----
+------------------
 
 ### Od statistiky po word embeddings
 
@@ -113,29 +122,29 @@ Statistika nad korpusem:
 - vektory lze vizualizovat
 - u sémantických vektorů můžeme počítat jejich podobnost (úhel, který svírají)
 
----
+------------------
 
 ### Odbočka - co je vektor?
 
-![vektor](vector1.png)
+![](vector1.png){height=450px}
 
 - vektor má délku a *směr* (ukazuje *pohyb*)
 
----
+------------------
 
 ### Odbočka - co je vektor?
 
-![vektory a úhly](vector2.png)
+![](vector2.png){height=450px}
 
----
+------------------
 
 ### Word embeddings
 
-![word embeddings](word_embedding.png)
+![](word_embedding.png)
 
 By Fschwarzentruber - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=162969550
 
----
+------------------
 
 ### Word embeddings
 
@@ -146,7 +155,7 @@ By Fschwarzentruber - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/in
 - samotná čísla uvnitř vektoru nic neříkají
 - word embeddings se trénují tak, že neuronovou síť vystavíme textovým datům, a necháme ji naučit se hádat další slovo
 
----
+------------------
 
 ### Využití word embeddings
 
@@ -154,11 +163,13 @@ By Fschwarzentruber - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/in
 - vyhledávání (najde dokument s podobnými slovy)
 - v dalších neuronových sítích - transformerech
 
-![transformers](transformers.jpg)
+![](transformers.jpg){height=350px}
 
+<span style="color: gray; font-size: 80%">
 By prayitno from Los Angeles, USA - Defenders of the UniverseUploaded by themeparkgc, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=22523905
+</span>
 
----
+------------------
 
 ### Transformer (transformátor)
 
