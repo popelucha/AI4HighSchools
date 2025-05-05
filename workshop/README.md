@@ -8,7 +8,7 @@
 
 2. práce s Google colab
  - je potřeba mít účet u Google
- - [TODO]
+ - [Word Embeddings](https://colab.research.google.com/drive/180AnKeq-V5Aiec_RJjhLLDgVsp6QiYh0?usp=sharing)
  - [Vizualizace investic pomocí ChatGPT](https://colab.research.google.com/drive/1rSfUUkg8vms3etNvNgRN_bZ6bJJov95J?usp=sharing)
 
 3. práce s ChatGPT
