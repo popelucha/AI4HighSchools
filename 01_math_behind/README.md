@@ -42,7 +42,7 @@ Slovo "krindy" se v korpusu SYN v13 vyskytuje 35 krát. Celkem se v korpusu vysk
 
 
 $$
-P("pindy"|"krindy") = 100 \%
+P("pindy"|"krindy") = 100 \\%
 $$
 
 ---
