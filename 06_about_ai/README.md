@@ -4,6 +4,8 @@ Největší výzvy dneška spojené s AI:
 - misinformace, dezinformace
 - zbraně řízené AI
 - ochrana soukromí a duševního vlastnictví
+- sociální témata (změna pracovního trhu, změna vzdělávání, ...)
+- energie, byznys, politika
 
 ---
 
