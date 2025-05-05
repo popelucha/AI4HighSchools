@@ -42,7 +42,7 @@ Slovo "krindy" se v korpusu SYN v13 vyskytuje 35 krát. Celkem se v korpusu vysk
 
 
 $$
-P("pindy"|"krindy") = 100 %
+P("pindy"|"krindy") = 100 \%
 $$
 
 ---
@@ -104,6 +104,20 @@ Statistika nad korpusem:
 - vektor je řada čísel (délka řady se nazývá dimenze)
 - vektory lze vizualizovat
 - u sémantických vektorů můžeme počítat jejich podobnost (úhel, který svírají)
+
+---
+
+### Odbočka - co je vektor?
+
+![vektor](vector1.png)
+
+- vektor má délku a *směr* (ukazuje *pohyb*)
+
+---
+
+### Odbočka - co je vektor?
+
+![vektory a úhly](vector2.png)
 
 ---
 
