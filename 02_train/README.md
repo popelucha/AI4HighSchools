@@ -12,7 +12,7 @@ Neuron je výpočetní jednotka, která popisuje přímku
 
 $$ y = ax + b $$
 
-![](Linear_regression.svg.png)
+![](../img/Linear_regression.svg.png)
 
 <span style="color: gray; font-size: 80%">
 By Sewaqu - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=11967659
@@ -36,7 +36,7 @@ $$ y = {w}x + {b} $$
 
 Ne všechna data jsou stejně důležitá
 
-![](attention0.png)
+![](../img/attention0.png)
 
 -----------------
 
@@ -44,30 +44,30 @@ Ne všechna data jsou stejně důležitá
 
 Ne všechna data jsou stejně důležitá
 
-![](attention.png)
+![](../img/attention.png)
 
 -----------------
 
 ## Trénování
 
-![](p1.png)
+![](../img/p1.png)
 
 -----------------
 
 ## Iterace 0 - náhodná *w* a *b*
 
-![](p2.png)
+![](../img/p2.png)
 
 -----------------
 
 ## Iterace 1 - lepší *w* a *b*
 
-![](p3.png)
+![](../img/p3.png)
 
 -----------------
 
 ## Iterace X - nejlepší *w* a *b*
-![](p4.png)
+![](../img/p4.png)
 
 -----------------
 
@@ -89,7 +89,7 @@ velká paměť + velký výkon = drahé počítače
 - běžný herní počítač má 100 gigaFLOPS (10e11) - 10 teraFLOPS (10e13)
 - výkon superpočítače LUMI: 531 petaFLOPS
 
-![](lumi.jpg){height=450px}
+![](../img/lumi.jpg){height=450px}
 
 -----------------
 
@@ -97,7 +97,7 @@ velká paměť + velký výkon = drahé počítače
 
 - výpočet se měří v petaFLOPS (10e15) za den počítání
 
-![](few_shot_learners.png)
+![](../img/few_shot_learners.png)
 
 -----------------
 
