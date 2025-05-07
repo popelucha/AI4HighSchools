@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Zuzana Nevěřilová" />
+  <title>AI4HighSchools - Workshop o umělé inteligenci</title>
+  <style type="text/css">
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" type="text/css" media="screen, projection, print"
+    href="https://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css" />
+  <script src="https://www.w3.org/Talks/Tools/Slidy2/scripts/slidy.js"
+    charset="utf-8" type="text/javascript"></script>
+</head>
+<body>
+<div class="slide titlepage">
+  <h1 class="title">AI4HighSchools - Workshop o umělé inteligenci</h1>
+  <p class="author">
+Zuzana Nevěřilová
+  </p>
+  <p class="date">7. 5. 2025</p>
+</div>
+<div class="slide section level1">
+
+<h2 id="osnova">Osnova</h2>
+<ol style="list-style-type: decimal">
+<li>Jak a proč AI funguje?</li>
+<li>Jak se AI trénuje?</li>
+<li>Jak AI používat?</li>
+<li>Jaký byznys je AI?</li>
+<li>Jaké jsou hrozby AI?</li>
+<li>Jak se o AI dozvědět víc?</li>
+</ol>
+</div>
+<div class="slide section level1">
+
+<h2 id="osnova-podrobněji">Osnova podrobněji</h2>
+<ol style="list-style-type: decimal">
+<li>Jak a proč AI funguje?</li>
+</ol>
+<ul>
+<li>nedá se nic dělat, začneme statistikou</li>
+<li>word embeddings</li>
+<li>attention</li>
+<li>výpočetní síla</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<ol start="2" style="list-style-type: decimal">
+<li>Jak se AI trénuje?</li>
+</ol>
+<ul>
+<li>kde a jak vzít textová data</li>
+<li>jazykový korpus</li>
+<li>jak velký je velký jazykový model?</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<ol start="3" style="list-style-type: decimal">
+<li>Jak AI používat?</li>
+</ol>
+<ul>
+<li>nástroje, které používáte</li>
+<li>nástroje, které můžete používat</li>
+<li>jak přestat používat AI blbě</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<ol start="4" style="list-style-type: decimal">
+<li>Jaký byznys je AI?</li>
+</ol>
+<ul>
+<li>sledujeme závod jen mezi Čínou a USA?</li>
+<li>je AI Act pitomost, která Evropu zabrzdila?</li>
+<li>elektrárny a energie</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<ol start="5" style="list-style-type: decimal">
+<li>Jaké jsou hrozby AI?</li>
+</ol>
+<ul>
+<li>sociální</li>
+<li>enviromentální</li>
+<li>vojenské</li>
+<li>kulturní</li>
+<li>etické</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<ol start="6" style="list-style-type: decimal">
+<li>Jak se o AI dozvědět víc?</li>
+</ol>
+<ul>
+<li>a hlavně, jak stále držet krok</li>
+</ul>
+</div>
+<div id="jak-rozumíme-ai" class="slide section level1">
+<h1>Jak rozumíme AI?</h1>
+<p><img src="img/jak_rozumi.png" /></p>
+<h2 id="výzkum-národní-rady-4-h-usa-z-roku-2024">výzkum Národní rady 4-H
+(USA) z roku 2024</h2>
+</div>
+<div id="kam-ai-zasahuje" class="slide section level1">
+<h1>Kam AI zasahuje</h1>
+<p><img src="img/ai_fields.png" height="550" /></p>
+</div>
+<div id="jak-a-proč-ai-funguje" class="slide section level1">
+<h1>Jak a proč AI funguje?</h1>
+<p>jazykový korpus = datová sada s texty</p>
+<p>Texty musí být:</p>
+<ul>
+<li>souvislé</li>
+<li>ideálně v jednom jazyce</li>
+<li>napsané pokud možno lidmi</li>
+<li>dost dlouhé</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h2 id="ai-je-statistický-model">AI je statistický model</h2>
+<h3 id="jednoduchá-statistika">Jednoduchá statistika</h3>
+<p>Slovo “krindy” se v korpusu SYN v13 vyskytuje 35 krát. Celkem se v
+korpusu vyskytuje 6 400 899 055 slov.</p>
+<p><img src="img/krindypindy.png" height="500" /></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="pokročilejší-statistika">Pokročilejší statistika</h3>
+<p><img src="img/krindypindy.png" height="500" /></p>
+<ul>
+<li>po slově “krindy” se vždy vyskytuje slovo “pindy”</li>
+<li>nejjednodušší jazykový model by mohl pokračovat v generování slovem
+“pindy”, kdykoliv by uživatel napsal “krindy”</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h3 id="statistika-a-pravděpodobnost">Statistika a pravděpodobnost</h3>
+<ul>
+<li><p>statistika je měření, pravděpodobnost je odhad</p></li>
+<li><p>pravděpodobnost, že ze slovníku vylosuju slovo “krindy” =
+35/6400899055 = 5.47e-9</p></li>
+<li><p>protože jde o malá čísla, často se používá jednotka p.m. (per
+million)</p></li>
+<li><p>podmíněná pravděpodobnost = jaká je pravděpodobnost, že přijde
+slovo “pindy”, když se v textu objeví “krindy”?</p></li>
+</ul>
+<p><span
+class="math display"><em>P</em>(″<em>p</em><em>i</em><em>n</em><em>d</em><em>y</em>″|″<em>k</em><em>r</em><em>i</em><em>n</em><em>d</em><em>y</em>″) = 100%</span></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="proč-zrovna-krindy-pindy">Proč zrovna krindy pindy?</h3>
+<ul>
+<li>takové “chování” slov je dost vzácné</li>
+<li>většinou má slovo kolem sebe okruh slov (“společnost”)</li>
+<li>ta ukazuje, jaký význam slovo má (v kontextu)</li>
+</ul>
+<blockquote>
+<p>“a word is characterized by the company it keeps”</p>
+<p>— Firth, J.R. (1957)</p>
+</blockquote>
+</div>
+<div class="slide section level1">
+
+<h3 id="pokročilejší-statistika-u-běžných-slov">Pokročilejší statistika
+u běžných slov</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Výraz</th>
+<th>Frekvence</th>
+<th>Počet p.m.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>dobrý ,</td>
+<td>55 762</td>
+<td>8,71</td>
+</tr>
+<tr class="even">
+<td>dobrý .</td>
+<td>41 731</td>
+<td>6,52</td>
+</tr>
+<tr class="odd">
+<td>dobrý výkon</td>
+<td>35 258</td>
+<td>5,51</td>
+</tr>
+<tr class="even">
+<td>dobrý pocit</td>
+<td>32 507</td>
+<td>5,08</td>
+</tr>
+<tr class="odd">
+<td>dobrý nápad</td>
+<td>22 402</td>
+<td>3,5</td>
+</tr>
+<tr class="even">
+<td>dobrý výsledek</td>
+<td>21 626</td>
+<td>3,38</td>
+</tr>
+<tr class="odd">
+<td>dobrý zápas</td>
+<td>13 269</td>
+<td>2,07</td>
+</tr>
+<tr class="even">
+<td>dobrý a</td>
+<td>12 454</td>
+<td>1,95</td>
+</tr>
+<tr class="odd">
+<td>dobrý fotbal</td>
+<td>12 374</td>
+<td>1,93</td>
+</tr>
+<tr class="even">
+<td>dobrý tým</td>
+<td>8 638</td>
+<td>1,35</td>
+</tr>
+<tr class="odd">
+<td>dobrý dojem</td>
+<td>7 545</td>
+<td>1,18</td>
+</tr>
+<tr class="even">
+<td>dobrý den</td>
+<td>6 602</td>
+<td>1,03</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="slide section level1">
+
+<h3 id="ještě-pokročilejší-statistika">Ještě pokročilejší
+statistika</h3>
+<p>“krindy pindy” není “pindy krindy”</p>
+<p>Text je sekvence slov (a neslov)</p>
+<p>Záleží nejen na nejbližších sousedních slovech, ale i na širším okolí
+(kontext).</p>
+<h4 id="statistika-nad-korpusem">Statistika nad korpusem:</h4>
+<ul>
+<li>když je v textu “krindy pindy”, budou tam pravděpodobněji
+<em>light</em> nadávky (sakryš, prkotina, …)</li>
+<li>slovo “dobrý” se často vyskytuje v nabídkách práce</li>
+<li>slovo “dobrý” se často vyskytuje se slovem “velmi”</li>
+<li>v podobných situacích jako “dobrý” se vyskytuje slovo “špatný”</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h3 id="od-statistiky-po-word-embeddings">Od statistiky po word
+embeddings</h3>
+<ul>
+<li>statistický popis jazykového korpusu</li>
+<li>hledá se vztah všech slov se všemi dalšími</li>
+<li>(některé možnosti se chytře zahodí)</li>
+<li>protože jde o výpočet, nejde počítat se slovy, ta se převedou na
+<em>sémantický vektor</em></li>
+<li>vektor je řada čísel (délka řady se nazývá dimenze)</li>
+<li>vektory lze vizualizovat</li>
+<li>u sémantických vektorů můžeme počítat jejich podobnost (úhel, který
+svírají)</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h3 id="odbočka---co-je-vektor">Odbočka - co je vektor?</h3>
+<p><img src="img/vector1.png" height="450" /></p>
+<ul>
+<li>vektor má délku a <em>směr</em> (ukazuje <em>pohyb</em>)</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h3 id="odbočka---co-je-vektor-1">Odbočka - co je vektor?</h3>
+<p><img src="img/vector2.png" height="450" /></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="word-embeddings">Word embeddings</h3>
+<p><img src="img/word_embedding.png" /></p>
+<p>By Fschwarzentruber - Own work, CC BY-SA 4.0,
+https://commons.wikimedia.org/w/index.php?curid=162969550</p>
+</div>
+<div class="slide section level1">
+
+<h3 id="word-embeddings-1">Word embeddings</h3>
+<ul>
+<li>umí sdružit k sobě slova, která jsou si podobná</li>
+<li>moc nevadí překlepy</li>
+<li>mohou být mezijazyková (podobnost mezi “cat” a “kočka”)</li>
+<li>stále máme slova reprezentovaná jako vektory (řady čísel)</li>
+<li>samotná čísla uvnitř vektoru nic neříkají</li>
+<li>word embeddings se trénují tak, že neuronovou síť vystavíme textovým
+datům, a necháme ji naučit se hádat další slovo</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h3 id="využití-word-embeddings">Využití word embeddings</h3>
+<ul>
+<li>našeptávač (další slovo, konec slova)</li>
+<li>vyhledávání (najde dokument s podobnými slovy)</li>
+<li>v dalších neuronových sítích - transformerech</li>
+</ul>
+<p><img src="img/transformers.jpg" height="350" /></p>
+<p><span style="color: gray; font-size: 80%"> By prayitno from Los
+Angeles, USA - Defenders of the UniverseUploaded by themeparkgc, CC BY
+2.0, https://commons.wikimedia.org/w/index.php?curid=22523905
+</span></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="transformer-transformátor">Transformer (transformátor)</h3>
+<ul>
+<li>druh neuronové sítě, který všechno změnil</li>
+<li>díky <em>attention</em> dokáže zachytit závislosti mezi slovy,
+přestože je mezi nimi velká vzdálenost</li>
+<li>aby to bylo možné, musí být transformer dost velká síť</li>
+<li>neuronová síť se trénuje (tj. vystaví datům) - trénink</li>
+<li>natrénovanou síť lze použít pro zpracování nových (dosud neviděných
+dat) - predikce</li>
+</ul>
+</div>
+<div id="jak-se-trénuje-ai" class="slide section level1">
+<h1>Jak se trénuje AI</h1>
+<ul>
+<li>statistika / pravděpodobnost</li>
+<li>pokročilejší: word embeddings</li>
+<li>nejpokročilejší: transformer</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h3 id="co-je-neuron">Co je neuron?</h3>
+<p>Neuron je výpočetní jednotka, která popisuje přímku</p>
+<p><span
+class="math display"><em>y</em> = <em>a</em><em>x</em> + <em>b</em></span></p>
+<p><img src="img/Linear_regression.svg.png" /></p>
+<p><span style="color: gray; font-size: 80%"> By Sewaqu - Own work,
+Public Domain, https://commons.wikimedia.org/w/index.php?curid=11967659
+</span></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="co-je-parametr">Co je parametr?<br />
+</h3>
+<p>Parametry <em>a</em> a <em>b</em></p>
+<p><span
+class="math display"><em>y</em> = <em>a</em><em>x</em> + <em>b</em></span></p>
+<p>a, b se někdy nazývají váha (weight) a zkreslení (bias)</p>
+<p><span
+class="math display"><em>y</em> = <em>w</em><em>x</em> + <em>b</em></span></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="co-je-attention-pozornost">Co je attention (pozornost)?</h3>
+<p>Ne všechna data jsou stejně důležitá</p>
+<p><img src="img/attention0.png" /></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="co-je-attention-pozornost-1">Co je attention (pozornost)?</h3>
+<p>Ne všechna data jsou stejně důležitá</p>
+<p><img src="img/attention.png" /></p>
+</div>
+<div class="slide section level1">
+
+<h2 id="trénování">Trénování</h2>
+<p><img src="img/p1.png" /></p>
+</div>
+<div class="slide section level1">
+
+<h2 id="iterace-0---náhodná-w-a-b">Iterace 0 - náhodná <em>w</em> a
+<em>b</em></h2>
+<p><img src="img/p2.png" /></p>
+</div>
+<div class="slide section level1">
+
+<h2 id="iterace-1---lepší-w-a-b">Iterace 1 - lepší <em>w</em> a
+<em>b</em></h2>
+<p><img src="img/p3.png" /></p>
+</div>
+<div class="slide section level1">
+
+<h2 id="iterace-x---nejlepší-w-a-b">Iterace X - nejlepší <em>w</em> a
+<em>b</em></h2>
+<p><img src="img/p4.png" /></p>
+</div>
+<div class="slide section level1">
+
+<h2 id="trénování-transformeru">Trénování transformeru</h2>
+<ul>
+<li>bohužel velká síť musí být celá v paměti počítače</li>
+<li>váhy a zkreslení se vzájemně ovlivňují</li>
+<li>lineární model má dva parametry, GPT-3 má 175 miliard parametrů</li>
+<li>trénování trvá dlouho</li>
+</ul>
+<p>velká paměť + velký výkon = drahé počítače</p>
+</div>
+<div class="slide section level1">
+
+<h3 id="výkon-počítačů---flops">Výkon počítačů - FLOPS</h3>
+<ul>
+<li>floating point operations per second</li>
+<li>běžný herní počítač má 100 gigaFLOPS (10e11) - 10 teraFLOPS
+(10e13)</li>
+<li>výkon superpočítače LUMI: 531 petaFLOPS</li>
+</ul>
+<p><img src="img/lumi.jpg" height="450" /></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="jak-dlouho-trénování-trvá">Jak dlouho trénování trvá?</h3>
+<ul>
+<li>výpočet se měří v petaFLOPS (10e15) za den počítání</li>
+</ul>
+<p><img src="img/few_shot_learners.png" /></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="co-to-znamená">Co to znamená?</h3>
+<ul>
+<li>stovky tisíc až miliony kWh na trénování jednoho modelu</li>
+<li>uhlíková stopa GPT-3 je 502 tun CO<span
+style="font-size: 70%">2</span></li>
+<li>spotřeba vody na trénink GPT-3 je 700 000 litrů</li>
+</ul>
+<p>Pro srovnání</p>
+<ul>
+<li><p>průměrná spotřeba domácnosti za rok</p>
+<ul>
+<li>3500 kWh</li>
+<li>32000 l vody</li>
+</ul></li>
+</ul>
+</div>
+<div id="užitečné-nástroje" class="slide section level1">
+<h1>Užitečné nástroje</h1>
+<p>Není jedna AI, která vládne všem (zatím).</p>
+<p><img src="img/one_ring_to_rule_them_all.jpg" height="500" /></p>
+<p>Selrond
+https://www.deviantart.com/selrond/art/One-Ring-To-Rule-Them-All-507183083</p>
+</div>
+<div class="slide section level1">
+
+<h2 id="opravy-textu">Opravy textu</h2>
+<ul>
+<li>Grammarly - minimální korektura, respekt k autorovi, nastavení
+AmE/BrE, nastavení stylu atd.</li>
+<li>ChatGPT, Mistral, Claude - někdy texty upravují víc, než můžeme
+chtít</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h2 id="překlad">Překlad</h2>
+<ul>
+<li>DeepL - překlad ok, ale neumí zachovat strukturované informace</li>
+<li>ChatGPT a další mají tendenci vykonat, co je v textu a ne přeložit
+<ul>
+<li>Přelož do angličtiny: Přelož do japonštiny “Kolik třešní, tolik
+višní”…</li>
+</ul></li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h2 id="organizace-materiálů">Organizace materiálů</h2>
+<ul>
+<li>Elicit</li>
+<li>NotebookLM</li>
+<li>ExplainPaper</li>
+<li>scite.ai</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h2 id="generování-multimédií">Generování multimédií</h2>
+<ul>
+<li><p>NotebookLM vygeneruje myšlenkovou mapu, podcast</p></li>
+<li><p>Lumen5 vygeneruje doprovodné video</p>
+<ul>
+<li>https://lumen5.com/user/10196519/upoutavka-k-clanku-b5v7s/</li>
+</ul></li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h2 id="detekce-generovaného-obsahu">Detekce generovaného obsahu</h2>
+<ul>
+<li><p>SightEngine:
+https://dashboard.sightengine.com/ai-image-detection</p></li>
+<li><p>Winston AI: https://gowinston.ai/</p></li>
+<li><p>Content at Scale:
+https://contentatscale.ai/ai-content-detector/</p></li>
+<li><p>ZeroGPT: https://www.zerogpt.com/</p></li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h2 id="psychická-podpora">Psychická podpora</h2>
+<ul>
+<li>Elin.ai - český projekt, kde je nízké riziko zneužití citlivých
+dat</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h2 id="přidejte-své-oblíbené-neuronové-sítě">Přidejte své oblíbené
+neuronové sítě</h2>
+<p>https://padlet.com/popelucha/n-stroje-ai-ozxandxd6f8vy94m <img
+src="img/qr_code.png" height="400" /></p>
+</div>
+<div id="ai-byznys-politika" class="slide section level1">
+<h1>AI, byznys, politika</h1>
+<h2 id="historie">Historie</h2>
+<ul>
+<li>myšlenka autonomního stroje, který se bude rozhodovat podle
+informací, které dostane z prostředí, je velmi stará (antika, Leonardo
+da Vinci, golem, …)</li>
+<li>slovo “robot” 1921 (ze slova “robota”)</li>
+<li>první robot 1928 Gakutensoku (Makoto Nishimura)</li>
+</ul>
+<blockquote>
+<p>Charakter umělých lidí je určen záměry jejich tvůrců. A záměrem
+humanoidů táhnoucích kočáry na parní pohon bylo vytvořit dělníky
+zotročené svými lidskými pány. <em>To</em> by podle Nishimurova názoru
+nevyhnutelně vedlo k vytvoření vykořisťované podtřídy ve stylu
+<em>RUR</em>, která by se musela vzbouřit.</p>
+<p>— Yulia Frumer: The Short, Strange Life of the First Friendly
+Robot</p>
+</blockquote>
+</div>
+<div class="slide section level1">
+
+<h3 id="gakutensoku---ten-který-se-učí-z-přírody">Gakutensoku - ten,
+který se učí z přírody</h3>
+<p><img src="img/gakutensoku.jpg" height="450" /></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="ai-je-věda">AI je věda</h3>
+<ul>
+<li>termín “umělá inteligence” je z roku 1955 (John McCarthy)</li>
+<li>termín “strojové učení” je z roku 1959 (Arthur Samuel)</li>
+<li>první průmyslový robot Unimate z roku 1961</li>
+<li>chatbot Eliza je z roku 1966</li>
+<li>1979 autonomní vozítko projelo samo prostředím plným překážek</li>
+</ul>
+<p><img src="img/stanford_cart.jpg" /></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="ai-je-věda-která-má-výsledky">AI je věda, která má výsledky</h3>
+<ul>
+<li>1954 strojový překlad z ruštiny do angličtiny (Georgetownský
+experiment)</li>
+<li>1986 první auto bez řidiče (Bundeswehr University, Mnichov)</li>
+<li>1997 Deep Blue porazil Garyho Kasparova</li>
+<li>1997 rozpoznání řeči ve Windows</li>
+<li>2003 Spirit a Opportunity přistály na Marsu</li>
+<li>2011 Watson vyhrál Jeopardy!</li>
+<li>2012 neuronová síť na rozpoznání koček (Andrew Ng, Jeff Dean)</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h3 id="ai-je-byznys">AI je byznys</h3>
+<ul>
+<li>z výzkumné (nevýdělečné) oblasti se přehoupla do byznysu</li>
+<li>1980 expertní systém XCON pomáhal sestavovat počítače z
+komponent</li>
+<li>1990 první doporučovací systém (recommender system) “digital
+bookshelf”</li>
+<li>2002 robotický vysavač Roomba</li>
+<li>2006 Twitter, Facebook a Netflix začaly používat AI ve svých
+algoritmech</li>
+<li>2011 Siri</li>
+<li>2015 OpenAI</li>
+</ul>
+<blockquote>
+<p>“If you think about the things that are most important to the future
+of the world, I think good AI is probably one of the highest things on
+that list. So we are creating OpenAI. The organization is trying to
+develop a human positive AI. And because it’s a non-profit, it will be
+freely owned by the world.”</p>
+<p>— Sam Altman</p>
+</blockquote>
+</div>
+<div class="slide section level1">
+
+<h3 id="ai-zasahuje-do-politiky">AI zasahuje do politiky</h3>
+<ul>
+<li>Zájem (a financování) AI</li>
+</ul>
+<p><img src="img/ai_winter.png" height="500" /></p>
+<ul>
+<li>2017 robot Sophia (od Hanson Robotics) získává občanství v Saúdské
+Arábii</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h3 id="financování-ai-usa-vs.-čína-2024">Financování AI: USA vs. Čína?
+(2024)</h3>
+<p><img src="img/investment_per_country.png" height="550" /></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="financování-ai-usa-vs.-čína-celkem">Financování AI: USA
+vs. Čína? (celkem)</h3>
+<p><img src="img/investment_per_country_sum.png" height="550" /></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="financování-ai-co-evropa">Financování AI: Co Evropa?</h3>
+<p><img src="img/investment_us_china_eu.png" height="550" /></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="ai-firmy-založené-v-roce-2024">AI firmy založené v roce
+2024</h3>
+<p><img src="img/ai_companies.png" height="550" /></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="ai-firmy-celkem">AI firmy celkem</h3>
+<p><img src="img/ai_companies_sum.png" height="550" /></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="ai-firmy-umí-evropa-inovace-za-méně-peněz-než-usa">AI firmy: umí
+Evropa inovace za méně peněz než USA?</h3>
+<p><img src="img/ai_companies_us_china_eu.png" height="550" /></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="ai-a-energie">AI a energie</h3>
+<p><img src="img/energy_consumption.png" height="550" /></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="ai-a-energie-1">AI a energie</h3>
+<ul>
+<li><p>v současnosti datacentra spotřebovávají 2 % energie (víc než
+Francie)</p></li>
+<li><p>v roce 2026 se očekává, že to budou 4 % (tolik, co
+Japonsko)</p></li>
+<li><p>výstavbu datacenter limituje energie (na provoz a chlazení)</p>
+<ul>
+<li>datacentra poháněná zero-carbon energií</li>
+<li>datacentrum Amazonu v Pensylvánii u jaderné elektrárny</li>
+<li>Microsoft investuje do jaderné elektrárny Three Mile Island</li>
+</ul></li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h3 id="ai-energie-a-česká-republika">AI, energie a Česká republika</h3>
+<p><img src="img/energy_by_source.png" height="550" /></p>
+</div>
+<div id="hrozby-ai" class="slide section level1">
+<h1>Hrozby AI</h1>
+<p>Můj prompt pro NotebookLM:</p>
+<blockquote>
+<p>Chci vědět, jaká jsou rizika AI. Zajímají mě všechny obory: sociální
+rizika, bezpečnost, zbraně, deepfakes, lidé, kteří přijdou o práci nebo
+za jejich práci nebude ochoten nikdo zaplatit víc než za vygenerovanou
+napodobeninu. Zajímají mě dopady na životní prostředí - jak při
+trénování modelů, tak při jejich provozu. Kolik se musí postavit
+elektráren, například. Zajímá mě, zda velké jazykové modely mohou
+chránit kulturní a jazykovou diverzitu lidstva nebo zda ji poškozují.
+Vede používání AI k demokratizaci vzdělávání, nebo naopak bude rozevírat
+nůžky mezi vzdělanými a bohatými a chudými nevzdělanými lidmi? Je AI
+riziko pro ekonomiku a trhy? Může být AI zneužita pro sledování a řízení
+obyvatel bez jejich vědomí?</p>
+</blockquote>
+</div>
+<div class="slide section level1">
+
+<h2 id="další-poznámky-k-tématu">Další poznámky k tématu</h2>
+<ul>
+<li>o přínosech a hrozbách EU naštěstí ví i politici</li>
+<li>v EU máme AI Act
+<ul>
+<li>kritizovaný za to, že “USA něco vymyslely, Čína to okopírovala a
+Evropa zregulovala”</li>
+<li>jediná oblast na světě, kde někoho zajímá právo na soukromí a
+ochranu osobních údajů</li>
+</ul></li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h2 id="ohrožuje-nás-že-evropa-zaspala">Ohrožuje nás, že “Evropa
+zaspala”?</h2>
+<ul>
+<li><p>Ano</p>
+<ul>
+<li>Čína začala masivně investovat do AI v roce 2017</li>
+<li>investice USA jsou mnohem vyšší (je to ale srovnatelné?)</li>
+</ul></li>
+<li><p>Ne</p>
+<ul>
+<li>v EU je dost lidí, kteří jsou experty v AI (v akademické sféře)</li>
+<li>ČR má přístup k nejvýkonějšímu počítač v EU: Lumi</li>
+<li>mezi světově používanými modely je francouzský Mistral</li>
+</ul></li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h3 id="lidé-přijdou-o-práci-nebo-jim-za-ni-nebudou-ochotni-platit">Lidé
+přijdou o práci (nebo jim za ni nebudou ochotni platit)</h3>
+<p>Komu budeme platit za díla, která vygenerovala AI?</p>
+<blockquote>
+<p>Generative AI also presents a threat to the livelihood of writers and
+other creative artists, and may de-value their work. Models are often
+trained on writers’outputs, without their permission, and then the
+models can be used to generate similar content.</p>
+<p>— Andrea Cristina McGlinchey and Peter Barclay: Using Machine
+Learning to Distinguish Human-Written from Machine-Generated Creative
+Fiction, ICAART 2025.</p>
+</blockquote>
+</div>
+<div class="slide section level1">
+
+<p>Bude méně povolání pro nekvalifikované lidi? Jaká povolání
+zbudou?</p>
+<blockquote>
+<p>Investiční banka Goldman Sachs odhaduje, že tato rychle se
+rozvíjející technologie by mohla ve Spojených státech a v Evropě ztratit
+nebo snížit 300 milionů pracovních míst U žen o 50 % vyšší
+pravděpodobnost, že budou muset změnit povolání, než u jejich mužských
+protějšků.</p>
+<p>—
+https://www.forbes.com/sites/jackkelly/2024/10/28/how-ai-could-be-detrimental-to-low-wage-workers/</p>
+</blockquote>
+</div>
+<div class="slide section level1">
+
+<p>Automatizace způsobila v USA mezi lety 1980 a 2016 většinu změn ve
+struktuře mezd (50-70 %).</p>
+<blockquote>
+<p>The real earnings of men without a high-school degree are now 15%
+lower than they were in 1980.</p>
+<p>— Daron Acemoglu &amp; Pascual Restrepo, 2022. “Tasks, Automation,
+and the Rise in U.S. Wage Inequality,” Econometrica, Econometric
+Society, vol. 90(5), pages 1973-2016, September.</p>
+</blockquote>
+</div>
+<div class="slide section level1">
+
+<h3 id="deepfakes">Deepfakes</h3>
+<p>Už teď nejde rozpoznat vygenerovaný text od textu, který napsal
+člověk.</p>
+<p>Lidstvo prožilo cca 100 000 let s verbální komunikací (jazykem), s
+neverbální ještě řádově víc. Zhruba před 10000 lety vzniklo zemědělství,
+cca před 5000 lety písmo. Nejstarší knihy jsou z 8. století, od 15.
+století máme knihtisk. Jsme velmi špatně adaptovaní na nová média (máme
+tendenci věřit tomu, co vidíme a slyšíme).</p>
+</div>
+<div class="slide section level1">
+
+<p>Na druhou stranu, AI může pomoci i v odhalování fake news, případně v
+diskuzi s lidmi, kteří fake news propadli.</p>
+<blockquote>
+<p>If you’re afraid and believe that the world is dangerous and random
+and chaotic, it’s almost a comforting idea that that there’s order in
+the world, even if that order is something like an evil secret
+government.</p>
+<p>— Thomas H. Costello et al.: Durably reducing conspiracy beliefs
+through dialogues with
+AI.Science385,eadq1814(2024).DOI:10.1126/science.adq1814 —
+https://www.debunkbot.com/</p>
+</blockquote>
+</div>
+<div class="slide section level1">
+
+<h3 id="zkreslení-bias">Zkreslení (bias)</h3>
+<p>Výzkumníci např. zjistili, že některé nástroje pro generování
+fotografií zobrazují osoby s vyšším společenským postavením (lékaře,
+soudce, ředitele apod.) se světlou pletí, zatímco osoby s nižším
+společenským postavením (prodavače z fast foodu, uklízečky, umývače
+nádobí apod.) s tmavší pletí či asijskými rysy. Dopouští se tak
+biasu.</p>
+<ul>
+<li>30 % marketingových materiálů je vygenerovaných</li>
+<li>Stable Diffusion je open model, využívá jej například Canva</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<blockquote>
+<p>Perpetuating stereotypes and misrepresentations through imagery can
+pose significant educational and professional barriers for Black and
+Brown women and girls, said Heather Hiles, chair of Black Girls Code.
+“People learn from seeing or not seeing themselves that maybe they don’t
+belong,” Hiles said. “These things are reinforced through images.”</p>
+<p>— Leonardo Nicoletti and Dina Bass: Humans Are Biased. Generative AI
+Is Even Worse. Bloomberg. June 9, 2023
+https://www.bloomberg.com/graphics/2023-generative-ai-bias/</p>
+</blockquote>
+<p>Stable Diffusion’s text-to-image model amplifies stereotypes about
+race and gender — here’s why that matters</p>
+</div>
+<div class="slide section level1">
+
+<p><img src="img/racial_bias.png" height="550" /></p>
+</div>
+<div class="slide section level1">
+
+<p><img src="img/gender_bias.png" height="550" /></p>
+</div>
+<div class="slide section level1">
+
+<p><img src="img/average-face.png" height="550" /></p>
+</div>
+<div class="slide section level1">
+
+<p><img src="img/criminals.png" height="550" /></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="zkreslení-v-jazyce">Zkreslení v jazyce</h3>
+<p>Zánik jazyků: z cca 7000 jazyků světa se jich k trénování chatbotů
+použilo asi 100.</p>
+<p>Rozpoznání hlasu: modely nejsou schopny rozpoznat dialekty, akcent a
+jiné varianty jazyka.</p>
+<p>Budeme mluvit a psát všichni stejně?</p>
+</div>
+<div class="slide section level1">
+
+<h3 id="sledování-a-porušení-soukromí">Sledování a porušení
+soukromí</h3>
+<p>Běžně používáme biometrické údaje: nejčastěji otisk prstu.</p>
+<p>Už dlouhou dobu funguje docela dobře rozpoznávání lidí obličejů a
+styl chůze (gait).</p>
+<p>Naštěstí pro nás, EU AI Act používání AI pro sledování lidí zakazuje.
+Naneštěstí používáme množství technologií, které pocházejí odjinud.</p>
+<p>Krádeže identit: napodobení hlasu, deepfake videa, porušení online
+privacy</p>
+<p>Na druhou stranu tytéž technologie pomáhají (zachování hlasu pro
+pacienty po odstranění části nebo celé hlasivky).</p>
+</div>
+<div class="slide section level1">
+
+<h3 id="oslabení-etických-pravidel">Oslabení etických pravidel</h3>
+<p>Podvádět je tak snadné!</p>
+<ul>
+<li>falešné recenze</li>
+<li>školní práce</li>
+<li>akademická integrita</li>
+<li>záplava falešných CV a referencí</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h3 id="etika-a-ai-ve-zdravotnictví">Etika a AI ve zdravotnictví</h3>
+<ul>
+<li>AI má mnoho výhod (v diagnostice, nano lécích, datové
+analytice)</li>
+<li>AI může mít málo lidskosti (empatie, porozumění, emoce,
+kreativita)</li>
+<li>snížená komunikace a sociální interakce</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h3 id="etika-a-politika">Etika a politika</h3>
+<ul>
+<li>60 incidentů v 15 zemích ohledně generovaného obsahu použitého ve
+volbách https://restofworld.org/2024/elections-ai-tracker/</li>
+<li>čínská spamouflage ovlivňuje volby v USA</li>
+<li>ruské hybridní operace na území EU</li>
+</ul>
+<p><img src="img/spamouflage.png" height="400" /></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="dezinformace-a-misinformace">Dezinformace a misinformace</h3>
+<ul>
+<li>o těch jindy</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h3 id="autonomní-zbraně">Autonomní zbraně</h3>
+<ul>
+<li>roboti, drony, …</li>
+<li>kyberútoky</li>
+<li>ničení podmořských kabelů (které přenesou přes 97 % světových
+dat)</li>
+<li>sabotáže</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h3 id="nová-studená-válka">Nová studená válka?</h3>
+<blockquote>
+<p>Submarine cable competition between the United States and China has
+serious implications for today’s information war. If China and the U.S.
+continue to bid against each other, countries will be forced to choose
+between their cable networks, forming a “digital Iron Curtain” that
+splits the internet ecosystem in two.</p>
+<p>— Nicole Robinson, Grace Phillips: The Emerging “Cold Tech War”
+Between the U.S and China. Aug 2023. The Heritage Foundation.</p>
+</blockquote>
+</div>
+<div class="slide section level1">
+
+<h3 id="ai-a-životní-prostředí">AI a životní prostředí</h3>
+<p>Trénování modelů zatěžuje životní prostředí</p>
+<ul>
+<li>Datacentra potřebují mnoho energie a vody</li>
+<li>Microsoft zvažuje koupi jaderné elektrárny</li>
+<li>Samotný trénink jazykového modelu GPT-3 spotřeboval 700 000 litrů
+vody</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h3 id="není-to-tak-zlé">Není to tak zlé:</h3>
+<p><img src="img/ai_enviro.jpg" height="550" /></p>
+</div>
+<div class="slide section level1">
+
+<h3
+id="má-nám-individuálním-uživatelům-dělat-starosti-energetická-náročnost-trénování-modelů">Má
+nám individuálním uživatelům dělat starosti energetická náročnost
+trénování modelů?</h3>
+<p>Kdo to vůbec zaplatil?</p>
+<p>Na druhou stranu AI může také energii šetřit:</p>
+<ul>
+<li>optimalizace energetické sítě</li>
+<li>automatické sledování stavu plodin v zemědělství (přesnější
+dávkování hnojiv nebo cílená likvidace škůdců)</li>
+<li>nemusíme cestovat kvůli schůzce (není to díky AI, ale celkově díky
+IT)</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<h3 id="pocit-ohrožení-a-data">Pocit ohrožení a data</h3>
+<p><img src="img/ai_risks.png" height="550" /></p>
+</div>
+<div class="slide section level1">
+
+<h3 id="pracovní-síla-a-ai">Pracovní síla a AI</h3>
+<p><img src="img/workforce_threat.png" height="550" /></p>
+</div>
+<div class="slide section level1">
+
+<h2 id="je-lidstvo-schopné-se-dohodnout">Je lidstvo schopné se
+dohodnout?</h2>
+<ul>
+<li>už několikrát se to podařilo (mezinárodní dohody o rádiovém
+vysílání, podmořských kabelech, lovu velryb, …)</li>
+<li>dokonce se to podařilo i dost rychle (omezení freonů a ozonová
+díra)</li>
+</ul>
+</div>
+<div id="proč-se-dozvědět-o-ai-víc" class="slide section level1">
+<h1>Proč se dozvědět o AI víc</h1>
+<p>Největší výzvy dneška spojené s AI:</p>
+<ul>
+<li>misinformace, dezinformace</li>
+<li>zbraně řízené AI</li>
+<li>ochrana soukromí a duševního vlastnictví</li>
+<li>sociální témata (změna pracovního trhu, změna vzdělávání, …)</li>
+<li>energie</li>
+</ul>
+</div>
+<div id="co-my-s-tím" class="slide section level1">
+<h1>Co my s tím?</h1>
+<blockquote>
+<p>The pressing need to prioritize a better approach to building AI is
+evident. To do so, it is necessary to reimagine an educational program
+where AI competencies, inclusive of building a lens interrogating the
+ethics of AI in addition to technical creation, are seen as core to
+preparing students for a technology-powered future.</p>
+<p>— The AI Report 2025</p>
+</blockquote>
+</div>
+<div id="pojďme-ai-rozumět" class="slide section level1">
+<h1>Pojďme AI rozumět</h1>
+<p><img src="img/jak_rozumi.png" height="400" /></p>
+</div>
+<div id="ai-zasahuje-do-mnoha-oblastí" class="slide section level1">
+<h1>AI zasahuje do mnoha oblastí</h1>
+<p><img src="img/ai_whole.png" /></p>
+<p>…najděte tu svou</p>
+</div>
+</body>
+</html>
