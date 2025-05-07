@@ -1,8 +1,4 @@
----
-title: AI a my
-author: Zuzana Nevěřilová
-date: 7. 5. 2025
----
+
 # Jak rozumíme AI?
 
 ![](jak_rozumi.png)
@@ -13,15 +9,16 @@ výzkum Národní rady 4-H (USA) z roku 2024
 
 # Kam AI zasahuje
 
-![](ai_fields.png)
+![](ai_fields.png){height=550px}
 
 ------------------
 
 # Jak a proč AI funguje?
 
-jazykový korpus - datová sada s texty
+jazykový korpus = datová sada s texty
 
 Texty musí být:
+
 - souvislé
 - ideálně v jednom jazyce
 - napsané pokud možno lidmi
@@ -35,13 +32,13 @@ Texty musí být:
 
 Slovo "krindy" se v korpusu SYN v13 vyskytuje 35 krát. Celkem se v korpusu vyskytuje 6 400 899 055 slov.
 
-![](krindypindy.png)
+![](krindypindy.png){height=500px}
 
 ------------------
 
 ### Pokročilejší statistika
 
-![](krindypindy.png)
+![](krindypindy.png){height=500px}
 
 - po slově "krindy" se vždy vyskytuje slovo "pindy"
 - nejjednodušší jazykový model by mohl pokračovat v generování slovem "pindy", kdykoliv by uživatel napsal "krindy"

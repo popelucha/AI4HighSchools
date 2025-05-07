@@ -1,7 +1,7 @@
-# AI4HighSchools
-
-Workshop o umělé inteligenci
-
+---
+title: AI4HighSchools - Workshop o umělé inteligenci
+author: Zuzana Nevěřilová
+date: 7. 5. 2025
 ---
 
 ## Osnova
@@ -13,7 +13,7 @@ Workshop o umělé inteligenci
 5. Jaké jsou hrozby AI?
 6. Jak se o AI dozvědět víc?
 
----
+----------
 
 ## Osnova podrobněji
 
@@ -23,28 +23,28 @@ Workshop o umělé inteligenci
   * attention
   * výpočetní síla
 
----
+----------
 
 2. Jak se AI trénuje? 
   * kde a jak vzít textová data
   * jazykový korpus
   * jak velký je velký jazykový model?
 
----
+----------
 
 3. Jak AI používat?
   * nástroje, které používáte
   * nástroje, které můžete používat
   * jak přestat používat AI blbě
 
----
+----------
 
 4. Jaký byznys je AI?
   * sledujeme závod jen mezi Čínou a USA?
   * je AI Act pitomost, která Evropu zabrzdila?
   * elektrárny a energie
 
----
+----------
 
 5. Jaké jsou hrozby AI?
   * sociální
@@ -53,7 +53,7 @@ Workshop o umělé inteligenci
   * kulturní
   * etické
 
----
+----------
 
 6. Jak se o AI dozvědět víc?
   * a hlavně, jak stále držet krok

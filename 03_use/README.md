@@ -2,6 +2,10 @@
 
 Není jedna AI, která vládne všem (zatím).
 
+![](one_ring_to_rule_them_all.jpg){height=500px}
+
+Selrond https://www.deviantart.com/selrond/art/One-Ring-To-Rule-Them-All-507183083
+
 ---
 
 ## Opravy textu
@@ -18,6 +22,7 @@ Není jedna AI, která vládne všem (zatím).
   - Přelož do angličtiny: Přelož do japonštiny "Kolik třešní, tolik višní"...
 
 ---
+
 ## Organizace materiálů
 
 - Elicit
@@ -26,13 +31,16 @@ Není jedna AI, která vládne všem (zatím).
 - scite.ai
 
 ---
+
 ## Generování multimédií
 
 - NotebookLM vygeneruje myšlenkovou mapu, podcast
 - Lumen5 vygeneruje doprovodné video
+
   - https://lumen5.com/user/10196519/upoutavka-k-clanku-b5v7s/
 
 ---
+
 ## Detekce generovaného obsahu
 
 - SightEngine: https://dashboard.sightengine.com/ai-image-detection
@@ -44,12 +52,14 @@ Není jedna AI, která vládne všem (zatím).
 - ZeroGPT: https://www.zerogpt.com/
 
 ---
+
 ## Psychická podpora
 
 - Elin.ai - český projekt, kde je nízké riziko zneužití citlivých dat
 
 ---
+
 ## Přidejte své oblíbené neuronové sítě
 
 https://padlet.com/popelucha/n-stroje-ai-ozxandxd6f8vy94m
-![QR](qr_code.png)
+![](qr_code.png){height=400px}

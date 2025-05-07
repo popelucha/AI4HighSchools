@@ -1,6 +1,7 @@
 # Proč se dozvědět o AI víc
 
 Největší výzvy dneška spojené s AI:
+
 - misinformace, dezinformace
 - zbraně řízené AI
 - ochrana soukromí a duševního vlastnictví
@@ -19,11 +20,12 @@ Největší výzvy dneška spojené s AI:
 
 # Pojďme AI rozumět
 
-![jak rozumí AI lidé 9-17 let](jak_rozumi.png)
+![](jak_rozumi.png){height=400px}
 
 --- 
 # AI zasahuje do mnoha oblastí
 
-![najděte tu svou](ai_whole.png)
+![](ai_whole.png)
+
 ...najděte tu svou
 

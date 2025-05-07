@@ -44,6 +44,9 @@ Wikipedia contributors. (2025, March 30). Word embedding. In Wikipedia, The Free
 ### Dezinformace
 
 - Derek B. Johnson: Disinfo group Spamouflage more aggressively targeting U.S. elections, candidates. September 3, 2024. Cyberscoop. https://cyberscoop.com/spamouflage-targeting-us-election-candidates/
+- Rest of World: 2024 Election Tracker. https://restofworld.org/2024/elections-ai-tracker/
+- Thomas H. Costello et al.: Durably reducing conspiracy beliefs through dialogues with AI.Science385,eadq1814(2024).DOI:10.1126/science.adq1814
+
 
 ### AI a Evropa
 
@@ -60,6 +63,7 @@ Wikipedia contributors. (2025, March 30). Word embedding. In Wikipedia, The Free
 
 - Eliza Strickland: AI Experts Speak: Memorable Quotes from Spectrum's AI Coverage. 30 Sep 2021. https://spectrum.ieee.org/artificial-intelligence-quotes/daniela-rus
 - AI dětem, z.s.: Nezisková iniciativa AI dětem. Lídr vzdělávání v oblasti umělé inteligence.  https://aidetem.cz/
+- Marc Cleiren, Julian van der Kraats, Jaap van den Herik, Peter van der Putten: Gen-ZAI needs to re-learn studying in the AI age - clues to why & how. ICAART 2025. https://surfdrive.surf.nl/files/index.php/s/RD2f99IBPZUm9rL#/
 
 # Pokud chcete udržet krok
 

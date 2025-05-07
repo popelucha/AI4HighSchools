@@ -2,16 +2,11 @@
 
 - statistika / pravděpodobnost
 - pokročilejší: word embeddings
-
-## Transformer (transformátor)
-
-- druh neuronové sítě, který všechno změnil
-- díky *attention* dokáže zachytit závislosti mezi slovy, přestože je mezi nimi velká vzdálenost
-- aby to bylo možné, musí být transformer dost velká síť
+- nejpokročilejší: transformer
 
 --------------
 
-## Co je velikost sítě?
+### Co je neuron?
 
 Neuron je výpočetní jednotka, která popisuje přímku
 
@@ -25,7 +20,9 @@ By Sewaqu - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?c
 
 -----------------
 
-### Co je parametr?
+### Co je parametr?\
+
+Parametry *a* a *b*
 
 $$ y = {a}x + {b} $$
 
@@ -53,18 +50,24 @@ Ne všechna data jsou stejně důležitá
 
 ## Trénování
 
-![](reg0.png)
+![](p1.png)
 
 -----------------
 
 ## Iterace 0 - náhodná *w* a *b*
 
-![](reg1.png)
+![](p2.png)
+
+-----------------
+
+## Iterace 1 - lepší *w* a *b*
+
+![](p3.png)
 
 -----------------
 
 ## Iterace X - nejlepší *w* a *b*
-![](reg2.png)
+![](p4.png)
 
 -----------------
 

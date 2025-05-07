@@ -62,7 +62,7 @@
 
 - Zájem (a financování) AI
 
-![](ai_winter.png)
+![](ai_winter.png){height=500px}
 
 - 2017 robot Sophia (od Hanson Robotics) získává občanství v Saúdské Arábii
 
@@ -70,43 +70,43 @@
 
 ### Financování AI: USA vs. Čína? (2024)
 
-![](investment_per_country.png)
+![](investment_per_country.png){height=550px}
 
 ---
 
 ### Financování AI: USA vs. Čína? (celkem)
 
-![](investment_per_country_sum.png)
+![](investment_per_country_sum.png){height=550px}
 
 ---
 
 ### Financování AI: Co Evropa?
 
-![](investment_us_china_eu.png)
+![](investment_us_china_eu.png){height=550px}
 
 ---
 
 ### AI firmy založené v roce 2024
 
-![](ai_companies.png)
+![](ai_companies.png){height=550px}
 
 ---
 
 ### AI firmy celkem
 
-![](ai_companies_sum.png)
+![](ai_companies_sum.png){height=550px}
 
 ---
 
 ### AI firmy: umí Evropa inovace za méně peněz než USA?
 
-![](ai_companies_us_china_eu.png)
+![](ai_companies_us_china_eu.png){height=550px}
 
 ---
 
 ### AI a energie
 
-![](energy_consumption.png)
+![](energy_consumption.png){height=550px}
 
 ---
 
@@ -117,12 +117,12 @@
 - výstavbu datacenter limituje energie (na provoz a chlazení)
 
   - datacentra poháněná zero-carbon energií 
-  - datacentrum Amazonu v Pensylváni u jaderné elektrárny
+  - datacentrum Amazonu v Pensylvánii u jaderné elektrárny
   - Microsoft investuje do jaderné elektrárny Three Mile Island
 
 ---
 
 ### AI, energie a Česká republika
 
-![](energy_by_source.png)
+![](energy_by_source.png){height=550px}
 
