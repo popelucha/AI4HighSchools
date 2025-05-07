@@ -15,6 +15,7 @@
  - je výhodnější mít účet
  - [ukázka ne tak dobrého použití](https://chatgpt.com/share/68124879-d564-8006-8317-9d6274100de6)
  - [ukázka lepšího použití](https://chatgpt.com/share/681248a6-6f10-8006-86d7-c98a1cb557a8)
+ - [rozšířený text o promptech](https://arxiv.org/pdf/2302.11382)
 
 4. práce s NotebookLLM
  - je potřeba mít účet u Google
