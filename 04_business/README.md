@@ -14,7 +14,7 @@
 
 ### Gakutensoku - ten, který se učí z přírody
 
-![](gakutensoku.jpg){height=450px}
+![](../img/gakutensoku.jpg){height=450px}
 
 ---
 
@@ -26,7 +26,7 @@
 - chatbot Eliza je z roku 1966
 - 1979 autonomní vozítko projelo samo prostředím plným překážek
 
-![](stanford_cart.jpg)
+![](../img/stanford_cart.jpg)
 
 ---
 
@@ -36,7 +36,6 @@
 - 1986 první auto bez řidiče (Bundeswehr University, Mnichov)
 - 1997 Deep Blue porazil Garyho Kasparova
 - 1997 rozpoznání řeči ve Windows
-- 2002 robotický vysavač Roomba
 - 2003 Spirit a Opportunity přistály na Marsu
 - 2011 Watson vyhrál Jeopardy!
 - 2012 neuronová síť na rozpoznání koček (Andrew Ng, Jeff Dean)
@@ -48,6 +47,7 @@
 - z výzkumné (nevýdělečné) oblasti se přehoupla do byznysu 
 - 1980 expertní systém XCON pomáhal sestavovat počítače z komponent
 - 1990 první doporučovací systém (recommender system) "digital bookshelf"
+- 2002 robotický vysavač Roomba
 - 2006 Twitter, Facebook a Netflix začaly používat AI ve svých algoritmech
 - 2011 Siri
 - 2015 OpenAI
@@ -62,7 +62,7 @@
 
 - Zájem (a financování) AI
 
-![](ai_winter.png){height=500px}
+![](../img/ai_winter.png){height=500px}
 
 - 2017 robot Sophia (od Hanson Robotics) získává občanství v Saúdské Arábii
 
@@ -70,43 +70,43 @@
 
 ### Financování AI: USA vs. Čína? (2024)
 
-![](investment_per_country.png){height=550px}
+![](../img/investment_per_country.png){height=550px}
 
 ---
 
 ### Financování AI: USA vs. Čína? (celkem)
 
-![](investment_per_country_sum.png){height=550px}
+![](../img/investment_per_country_sum.png){height=550px}
 
 ---
 
 ### Financování AI: Co Evropa?
 
-![](investment_us_china_eu.png){height=550px}
+![](../img/investment_us_china_eu.png){height=550px}
 
 ---
 
 ### AI firmy založené v roce 2024
 
-![](ai_companies.png){height=550px}
+![](../img/ai_companies.png){height=550px}
 
 ---
 
 ### AI firmy celkem
 
-![](ai_companies_sum.png){height=550px}
+![](../img/ai_companies_sum.png){height=550px}
 
 ---
 
 ### AI firmy: umí Evropa inovace za méně peněz než USA?
 
-![](ai_companies_us_china_eu.png){height=550px}
+![](../img/ai_companies_us_china_eu.png){height=550px}
 
 ---
 
 ### AI a energie
 
-![](energy_consumption.png){height=550px}
+![](../img/energy_consumption.png){height=550px}
 
 ---
 
@@ -124,5 +124,5 @@
 
 ### AI, energie a Česká republika
 
-![](energy_by_source.png){height=550px}
+![](../img/energy_by_source.png){height=550px}
 
