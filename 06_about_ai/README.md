@@ -20,12 +20,12 @@ Největší výzvy dneška spojené s AI:
 
 # Pojďme AI rozumět
 
-![](jak_rozumi.png){height=400px}
+![](../img/jak_rozumi.png){height=400px}
 
 --- 
 # AI zasahuje do mnoha oblastí
 
-![](ai_whole.png)
+![](../img/ai_whole.png)
 
 ...najděte tu svou
 

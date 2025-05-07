@@ -12,7 +12,7 @@ Můj prompt pro NotebookLM:
 - o přínosech a hrozbách EU naštěstí ví i politici
 - v EU máme AI Act
   - kritizovaný za to, že "USA něco vymyslely, Čína to okopírovala a Evropa zregulovala"
-  - jediná oblast na světě, kde někoho zajímají práva lidí
+  - jediná oblast na světě, kde někoho zajímá právo na soukromí a ochranu osobních údajů
 
 -------------
 
@@ -96,19 +96,19 @@ Stable Diffusion’s text-to-image model amplifies stereotypes about race and ge
 
 -------------
 
-![](racial_bias.png){height=550px}
+![](../img/racial_bias.png){height=550px}
 
 -------------
 
-![](gender_bias.png){height=550px}
+![](../img/gender_bias.png){height=550px}
 
 -------------
 
-![](average-face.png){height=550px}
+![](../img/average-face.png){height=550px}
 
 -------------
 
-![](criminals.png){height=550px}
+![](../img/criminals.png){height=550px}
 
 -------------
 
@@ -161,7 +161,7 @@ Podvádět je tak snadné!
 - čínská spamouflage ovlivňuje volby v USA
 - ruské hybridní operace na území EU
 
-![](spamouflage.png){height=400px}
+![](../img/spamouflage.png){height=400px}
 
 -------------
 
@@ -202,7 +202,7 @@ Trénování modelů zatěžuje životní prostředí
 
 ### Není to tak zlé:
 
-![](ai_enviro.jpg){height=550px}
+![](../img/ai_enviro.jpg){height=550px}
 
 -------------
 
@@ -220,7 +220,7 @@ Na druhou stranu AI může také energii šetřit:
 
 ### Pocit ohrožení a data
 
-![](ai_risks.png){height=550px}
+![](../img/ai_risks.png){height=550px}
 
 
 
@@ -228,7 +228,7 @@ Na druhou stranu AI může také energii šetřit:
 
 ### Pracovní síla a AI
 
-![](workforce_threat.png){height=550px}
+![](../img/workforce_threat.png){height=550px}
 
 
 

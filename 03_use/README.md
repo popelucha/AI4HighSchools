@@ -2,7 +2,7 @@
 
 Není jedna AI, která vládne všem (zatím).
 
-![](one_ring_to_rule_them_all.jpg){height=500px}
+![](../img/one_ring_to_rule_them_all.jpg){height=500px}
 
 Selrond https://www.deviantart.com/selrond/art/One-Ring-To-Rule-Them-All-507183083
 
@@ -62,4 +62,4 @@ Selrond https://www.deviantart.com/selrond/art/One-Ring-To-Rule-Them-All-5071830
 ## Přidejte své oblíbené neuronové sítě
 
 https://padlet.com/popelucha/n-stroje-ai-ozxandxd6f8vy94m
-![](qr_code.png){height=400px}
+![](../img/qr_code.png){height=400px}
