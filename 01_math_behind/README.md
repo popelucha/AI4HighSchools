@@ -1,7 +1,7 @@
 
 # Jak rozumíme AI?
 
-![](jak_rozumi.png)
+![](../img/jak_rozumi.png)
 
 výzkum Národní rady 4-H (USA) z roku 2024
 ------------------
@@ -9,7 +9,7 @@ výzkum Národní rady 4-H (USA) z roku 2024
 
 # Kam AI zasahuje
 
-![](ai_fields.png){height=550px}
+![](../img/ai_fields.png){height=550px}
 
 ------------------
 
@@ -32,13 +32,13 @@ Texty musí být:
 
 Slovo "krindy" se v korpusu SYN v13 vyskytuje 35 krát. Celkem se v korpusu vyskytuje 6 400 899 055 slov.
 
-![](krindypindy.png){height=500px}
+![](../img/krindypindy.png){height=500px}
 
 ------------------
 
 ### Pokročilejší statistika
 
-![](krindypindy.png){height=500px}
+![](../img/krindypindy.png){height=500px}
 
 - po slově "krindy" se vždy vyskytuje slovo "pindy"
 - nejjednodušší jazykový model by mohl pokračovat v generování slovem "pindy", kdykoliv by uživatel napsal "krindy"
@@ -123,7 +123,7 @@ Záleží nejen na nejbližších sousedních slovech, ale i na širším okolí
 
 ### Odbočka - co je vektor?
 
-![](vector1.png){height=450px}
+![](../img/vector1.png){height=450px}
 
 - vektor má délku a *směr* (ukazuje *pohyb*)
 
@@ -131,13 +131,13 @@ Záleží nejen na nejbližších sousedních slovech, ale i na širším okolí
 
 ### Odbočka - co je vektor?
 
-![](vector2.png){height=450px}
+![](../img/vector2.png){height=450px}
 
 ------------------
 
 ### Word embeddings
 
-![](word_embedding.png)
+![](../img/word_embedding.png)
 
 By Fschwarzentruber - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=162969550
 
@@ -160,7 +160,7 @@ By Fschwarzentruber - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/in
 - vyhledávání (najde dokument s podobnými slovy)
 - v dalších neuronových sítích - transformerech
 
-![](transformers.jpg){height=350px}
+![](../img/transformers.jpg){height=350px}
 
 <span style="color: gray; font-size: 80%">
 By prayitno from Los Angeles, USA - Defenders of the UniverseUploaded by themeparkgc, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=22523905
